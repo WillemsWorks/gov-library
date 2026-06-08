@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strategie — Paul Willems GOV Library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/bdo-grotesk" rel="stylesheet">
+  <style>
+    :root {
+      --lime:        #C4FF48;
+      --lime-light:  #F6FFE4;
+      --purple-light:#D1D1FF;
+      --purple-dark: #3A2E59;
+      --white:       #FFFFFF;
+      --ink:         #1A1816;
+      --ink-mid:     #5A5560;
+      --border:      #E4E0EE;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'BDO Grotesk', sans-serif;
+      font-weight: 300;
+      background: var(--white);
+      color: var(--ink);
+      line-height: 1.75;
+      font-size: 16px;
+    }
+
+    /* Topbar */
+    .topbar {
+      background: var(--purple-dark);
+      color: var(--white);
+      padding: 10px 48px;
+      font-family: 'Sora', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .topbar a {
+      color: var(--lime);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .topbar a:hover { text-decoration: underline; }
+
+    /* Doc header */
+    .doc-header {
+      background: var(--purple-dark);
+      color: var(--white);
+      padding: 56px 48px 48px;
+    }
+    .doc-header-inner {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .doc-label {
+      display: inline-block;
+      background: var(--lime);
+      color: var(--purple-dark);
+      font-family: 'Sora', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 2px;
+      margin-bottom: 20px;
+    }
+
+    .doc-title {
+      font-family: 'Sora', sans-serif;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 1.15;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+
+    .doc-subtitle {
+      font-size: 15px;
+      font-weight: 300;
+      color: var(--purple-light);
+      max-width: 600px;
+      margin-bottom: 32px;
+      line-height: 1.65;
+    }
+
+    .doc-meta {
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: rgba(255,255,255,0.5);
+      border-top: 1px solid rgba(255,255,255,0.12);
+      padding-top: 20px;
+    }
+    .doc-meta strong { color: var(--purple-light); font-weight: 500; }
+
+    /* Disclaimer */
+    .disclaimer {
+      background: var(--lime-light);
+      border-left: 4px solid var(--lime);
+      padding: 16px 24px;
+      font-size: 13px;
+      color: var(--ink-mid);
+      max-width: 820px;
+      margin: 36px auto;
+    }
+    .disclaimer p + p { margin-top: 6px; }
+    .disclaimer a {
+      color: var(--purple-dark);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .disclaimer a:hover { text-decoration: underline; }
+
+    /* Content wrapper */
+    .doc-content {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 0 48px 80px;
+    }
+
+    .doc-content h1 { display: none; }
+
+    .doc-content h2 {
+      font-family: 'Sora', sans-serif;
+      font-weight: 600;
+      font-size: 22px;
+      color: var(--purple-dark);
+      margin: 52px 0 16px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--lime);
+    }
+
+    .doc-content h3 {
+      font-family: 'Sora', sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+      color: var(--purple-dark);
+      margin: 32px 0 10px;
+    }
+
+    .doc-content h4 {
+      font-family: 'Sora', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-mid);
+      margin: 24px 0 8px;
+    }
+
+    .doc-content p {
+      margin-bottom: 16px;
+    }
+
+    .doc-content ul, .doc-content ol {
+      margin: 12px 0 16px 20px;
+    }
+
+    .doc-content li { margin-bottom: 6px; }
+
+    .doc-content blockquote {
+      border-left: 3px solid var(--purple-light);
+      margin: 28px 0;
+      padding: 14px 20px;
+      background: var(--lime-light);
+      font-size: 16px;
+      color: var(--purple-dark);
+      font-style: italic;
+    }
+    .doc-content blockquote p { margin: 0; color: var(--purple-dark); }
+
+    /* Tables */
+    .doc-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 14px;
+    }
+    .doc-content th {
+      background: var(--purple-dark);
+      color: var(--white);
+      padding: 10px 16px;
+      text-align: left;
+      font-family: 'Sora', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .doc-content td {
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .doc-content tr:nth-child(even) td { background: var(--lime-light); }
+
+    .doc-content strong { font-weight: 500; color: var(--ink); }
+    .doc-content code {
+      background: var(--lime-light);
+      border: 1px solid var(--border);
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 13px;
+      font-family: 'Courier New', monospace;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    /* Footer */
+    .doc-footer {
+      background: var(--purple-dark);
+      color: rgba(255,255,255,0.45);
+      padding: 28px 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      font-family: 'Sora', sans-serif;
+    }
+    .doc-footer a {
+      color: var(--lime);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .doc-footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 640px) {
+      .topbar, .doc-header, .doc-footer { padding-left: 20px; padding-right: 20px; }
+      .doc-content { padding-left: 20px; padding-right: 20px; }
+      .disclaimer { margin-left: 20px; margin-right: 20px; }
+      .doc-title { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <span>Paul Willems — GOV Library</span>
+  <a href="index.html">← Terug naar overzicht</a>
+</div>
+
+<div class="doc-header">
+  <div class="doc-header-inner">
+    <span class="doc-label">Persoonlijk werkframework</span>
+    <h1 class="doc-title">Strategie</h1>
+    <p class="doc-subtitle">Dit is geen samenvatting van Porter. Dit is Paul's werkversie van strategie — als diagnose-instrument voor directiegesprekken, als kader voor projectkeuzes, en als brug tussen p...</p>
+    <div class="doc-meta">
+      <span><strong>Versie</strong> v1.0</span>
+      <span><strong>Datum</strong> april 2026</span>
+      <span><strong>Bronnen</strong> MBA in één dag (Ben Tiggelaar, Denkproducties, april 2026) · Michael Porter — Competitive Strategy (1980) · Gary Hame...</span>
+    </div>
+  </div>
+</div>
+
+<div class="disclaimer">
+  <p>Dit document is een persoonlijk werkframework van <strong>Paul Willems</strong> (WillemsWorks). 
+  Het is opgebouwd uit boeken, seminars en eigen praktijkervaring — geen samenvatting, maar een actief werkinstrument. 
+  De inhoud is intellectueel eigendom van Paul Willems. Gebruik zonder toestemming is niet toegestaan.</p>
+  <p>Meer over mijn werkwijze en aanpak: <a href="https://willemsworks.nl" target="_blank">willemsworks.nl</a></p>
+</div>
+
+<div class="doc-content">
+<h1>GOV-ALL-Strategie_v1_0</h1>
+<p><strong>Document:</strong> <code>GOV-ALL-Strategie</code> | v1.0 | april 2026 | Persoonlijk werkframework | governance | alle platforms | strategiegesprekken met directie, projectkadering, positioneringsanalyse</p>
+<p><strong>Bronnen:</strong> <em>MBA in één dag</em> (Ben Tiggelaar, Denkproducties, april 2026) · Michael Porter — <em>Competitive Strategy</em> (1980) · Gary Hamel &amp; C.K. Prahalad — <em>Competing for the Future</em> (1994) · Simon Sinek — <em>Start With Why</em> (2009) · Amazon Leadership Principles · Disney Service Standards · Willemen Bouwgroep — normatief kader</p>
+<p><strong>Masterdocument:</strong> MASTER-ALL-Structure v2.2</p>
+<p><strong>Verwante GOV-documenten:</strong>
+- <code>GOV-ALL-LeanStartup</code> v1.0 — Build-Measure-Learn als uitvoeringslogica voor strategie in onzekere markten
+- <code>GOV-ALL-LeadingChange</code> v1.0 — Kotter als veranderproces; strategie zonder veranderplan blijft papier
+- <code>GOV-ALL-VerkennenVerankeren</code> v1.1 — Verkennen als strategische fase; inside-out denken als vertrekpunt
+- <code>GOV-ALL-OvertuigingsPsychologie</code> v1.3 — strategie communiceren vraagt overtuigingskracht, niet alleen helderheid
+- <code>GOV-ALL-Osterwalder</code> — businessmodelontwerp als verdieping op positionering (nog te bouwen)
+- <code>GOV-ALL-InfiniteGame</code> — Sinek's lange termijndenken als strategisch fundament (nog te bouwen)</p>
+<p><strong>Doel:</strong> Dit is geen samenvatting van Porter. Dit is Paul's werkversie van strategie — als diagnose-instrument voor directiegesprekken, als kader voor projectkeuzes, en als brug tussen positionering en uitvoering. Gelaagd opgebouwd: Porter als opening, inside-out als verdieping, Sinek als fundament, normatief kader als beslissingsinstrument.</p>
+<hr />
+<h2>Versietabel</h2>
+<table>
+<thead>
+<tr>
+<th>Versie</th>
+<th>Datum</th>
+<th>Beschrijving</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v1.0</td>
+<td>april 2026</td>
+<td>Initiële opbouw op basis van MBA in één dag (Tiggelaar) + verdiepingsgesprek. Porter als basismodel, inside-out als tegenhanger, Sinek's Why als fundament, normatief kader als praktisch beslissingsinstrument.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Deel 1: Het vertrekpunt — strategie is een keuze</h2>
+<p>De meeste organisaties hebben geen strategie. Ze hebben een ambitie ("we willen groeien"), een activiteitenplan ("we gaan dit jaar drie nieuwe producten lanceren") of een wenslijst ("we willen klantgerichter worden"). Geen van deze is een strategie.</p>
+<p>Een strategie is een bewuste keuze over waar je wél en waar je níet op concurreert — en waarom. Dat klinkt eenvoudig. In de praktijk is het politiek, want kiezen betekent loslaten.</p>
+<blockquote>
+<p>"Meeste strategieën zijn te vaag én onbekend bij medewerkers."
+— Ben Tiggelaar, MBA in één dag</p>
+</blockquote>
+<p>Twee symptomen van een ontbrekende strategie:
+- Iedereen in de organisatie geeft een ander antwoord op de vraag "waar onderscheiden we ons op?"
+- Beslissingen worden steeds opnieuw geëscaleerd omdat er geen kader is om ze zelfstandig te nemen</p>
+<hr />
+<h2>Deel 2: Porter — drie basisrichtingen als diagnostisch vertrekpunt</h2>
+<p>Michael Porter beschrijft drie generieke strategische posities. Ze zijn krachtig als <em>diagnostisch</em> instrument: ze dwingen je tot een keuze en voorkomen dat een organisatie alles tegelijk probeert.</p>
+<table>
+<thead>
+<tr>
+<th>Richting</th>
+<th>Kern</th>
+<th>Risico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kostenleiderschap</strong></td>
+<td>Laagste kosten in de markt — niet de laagste prijs, maar de laagste kostenbasis</td>
+<td>Kwetsbaar voor nog goedkopere nieuwkomers; marges staan permanent onder druk</td>
+</tr>
+<tr>
+<td><strong>Differentiatie</strong></td>
+<td>Onderscheidende propositie waarvoor klanten meer willen betalen</td>
+<td>Vereist constante innovatie; kopieerbaarheid is het grootste gevaar</td>
+</tr>
+<tr>
+<td><strong>Focus</strong></td>
+<td>Onderscheidende doelgroep — een niche zo goed bedienen dat anderen het niet kunnen of willen evenaren</td>
+<td>Niche kan krimpen; schaalvoordelen blijven beperkt</td>
+</tr>
+</tbody>
+</table>
+<p><strong>De kern van Porter's argument:</strong> Bedrijven die geen keuze maken — die tegelijk goedkoop én premium én voor iedereen willen zijn — eindigen "stuck in the middle." Ze concurreren op geen enkele dimensie sterk genoeg om duurzaam voordeel op te bouwen.</p>
+<p><strong>Praktische toepassing als diagnosevraag:</strong>
+- "Waar concurreer je op — en is dat een bewuste keuze of een historisch gegroeid patroon?"
+- "Wat zou je moeten loslaten om deze positie echt waar te maken?"
+- "Weet iedereen in de organisatie op welke van de drie jullie inzetten?"</p>
+<p><strong>Kanttekening bij Porter:</strong> Het model gaat impliciet uit van stabiele markten en duidelijke sectorgrensen. In snel veranderende markten — energie, technologie, platform-economie — zijn die grenzen vervagend. Porter geeft de <em>positie</em>, niet het <em>businessmodel</em>. Voor dat laatste: zie <code>GOV-ALL-Osterwalder</code>.</p>
+<hr />
+<h2>Deel 3: Inside-out — strategie vanuit kracht</h2>
+<p>Porter kijkt van buiten naar binnen: eerst de markt analyseren, dan een positie kiezen. Hamel &amp; Prahalad draaien die volgorde om: begin bij wat je organisatie al <em>kan</em> en <em>is</em> — en bouw daar je strategie op.</p>
+<p>De centrale vraag is: <strong>wat is waardevol, onderscheidend en uitbreidbaar?</strong></p>
+<ul>
+<li><strong>Waardevol:</strong> levert het iets op voor de klant dat de klant ook daadwerkelijk wil betalen?</li>
+<li><strong>Onderscheidend:</strong> kunnen concurrenten dit makkelijk kopiëren, of vraagt het specifieke kennis, relaties of processen die moeilijk te imiteren zijn?</li>
+<li><strong>Uitbreidbaar:</strong> kun je deze kracht inzetten voor nieuwe markten, producten of klantgroepen — of is het beperkt tot één toepassing?</li>
+</ul>
+<p><strong>Koppeling met Verkennen:</strong> Inside-out denken is de strategische toepassing van de Verkenningsfase. Je begint niet met een businessplan — je begint met eerlijk kijken naar wat er al werkt en wat al onderscheidend is. Zie <code>GOV-ALL-VerkennenVerankeren</code> v1.1.</p>
+<p><strong>Praktische diagnosevragen:</strong>
+- "Wat doen jullie beter dan wie ook — en weet de markt dat?"
+- "Welke klanten kiezen bewust voor jullie boven alternatieven — en waarom?"
+- "Wat zou er verdwijnen als jullie morgen ophielden te bestaan?"</p>
+<p><strong>Buiten-in én binnen-uit:</strong> De sterkste strategieën combineren beide perspectieven. Porter geeft de marktlogica, Hamel &amp; Prahalad geven de organisatielogica. Zonder buiten-in weet je niet waar de markt naartoe gaat. Zonder binnen-in weet je niet waar je vandaan kunt vertrekken.</p>
+<hr />
+<h2>Deel 4: Sinek — Why als fundament</h2>
+<blockquote>
+<p>"Martin Luther King zei niet 'I have a plan.' Hij zei 'I have a dream.'"
+— Simon Sinek</p>
+</blockquote>
+<p>Porter en Hamel beschrijven <em>wat</em> je doet en <em>hoe</em> je het doet. Sinek stelt dat duurzaam onderscheidend vermogen begint bij <em>waarom</em> — het doel, de overtuiging, de reden van bestaan die verder gaat dan winst maken.</p>
+<p>De praktische relevantie voor strategie: een Why fungeert als beslissingsfilter. Als je weet waarom je bestaat, weet je ook welke kansen je wél en niet pakt — zonder dat je elke beslissing opnieuw hoeft te analyseren.</p>
+<p><strong>Drie niveaus:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Niveau</th>
+<th>Vraag</th>
+<th>Voorbeeld</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Why</strong></td>
+<td>Waarom bestaan we — wat is ons hogere doel?</td>
+<td>"We believe in a better world through clean water"</td>
+</tr>
+<tr>
+<td><strong>How</strong></td>
+<td>Hoe realiseren we dat — wat zijn onze onderscheidende principes?</td>
+<td>Door te innoveren in waterbehandeling voor duurzame gebouwen</td>
+</tr>
+<tr>
+<td><strong>What</strong></td>
+<td>Wat doen we concreet?</td>
+<td>Producten en diensten voor waterbehandeling in HVAC-systemen</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Veelgemaakte fout:</strong> De meeste organisaties communiceren van buiten naar binnen — ze beginnen bij <em>What</em>. Sinek's argument: mensen kopen niet <em>wat</em> je doet, maar <em>waarom</em> je het doet. Zie ook <code>GOV-ALL-InfiniteGame</code> (nog te bouwen) voor Sinek's lange termijndenken.</p>
+<p><strong>Praktische toepassing:</strong>
+- Is de Why van de organisatie bekend bij medewerkers — en herkennen ze hem in dagelijkse beslissingen?
+- Worden nieuwe initiatieven getoetst aan de Why, of alleen aan de businesscase?
+- Communiceert de organisatie van binnen naar buiten (Why → How → What) of omgekeerd?</p>
+<hr />
+<h2>Deel 5: Het normatieve kader — principes als beslissingsinstrument</h2>
+<p>Het normatieve kader is het meest praktisch bruikbare instrument uit dit blok. De kern: als je principes in volgorde hebt staan, weet iedereen in de organisatie hoe dilemma's op te lossen — zonder escalatie.</p>
+<p><strong>Drie voorbeelden uit de praktijk:</strong></p>
+<p><strong>Amazon:</strong>
+1. Klantobsessie
+2. Passie voor innovatie
+3. Toewijding aan operational excellence
+4. Denken op de lange termijn</p>
+<p><strong>Disney:</strong>
+1. Veiligheid
+2. Hoffelijkheid
+3. Inclusie
+4. Show
+5. Efficiëntie</p>
+<p><strong>Willemen Bouwgroep:</strong>
+1. Veiligheid — het recht van de medewerker
+2. Kwaliteit — het recht van de klant
+3. Efficiëntie — het recht van de werkgever</p>
+<p><strong>Waarom de volgorde cruciaal is:</strong>
+Willemen's formulering maakt het expliciet — elk principe is het recht van een specifieke stakeholder. Als veiligheid en kwaliteit in conflict komen, weet iedereen wat voorgaat: het recht van de medewerker gaat voor het recht van de klant. Geen discussie nodig, geen escalatie.</p>
+<p>Disney's volgorde is minstens zo scherp: veiligheid staat boven show. Een Cast Member stopt een attractie ook als dat de beleving verstoort. Dat is een operationele beslissingsregel, geen waardenmuurslogan.</p>
+<p><strong>Het proces om tot een normatief kader te komen (triage):</strong>
+1. Benoem de principes samen — niet top-down opgelegd
+2. Inventariseer concrete dilemma's uit de praktijk
+3. Bespreek de dilemma's: wat gaat voor, en waarom?
+4. Zet de principes in volgorde van belang</p>
+<p><strong>De kracht van stap 2 en 3:</strong> Je hebt geen abstracte waardendiscussie nodig. Je hebt concrete dilemma's nodig. Pas als mensen het oneens zijn over een echte situatie, wordt duidelijk wat ze werkelijk belangrijk vinden — en in welke volgorde.</p>
+<p><strong>Koppeling met strategie:</strong> Een normatief kader is de operationele vertaling van de Why. Het maakt de Why bruikbaar in dagelijkse beslissingen. Zonder normatief kader blijft de Why een poster op de muur.</p>
+<hr />
+<h2>Deel 6: Strategie communiceren</h2>
+<blockquote>
+<p>"Meeste strategieën zijn te vaag én onbekend bij medewerkers."</p>
+</blockquote>
+<p>Een strategie die niet bekend is, bestaat niet. Dit is het meest onderschatte uitvoeringsprobleem in strategietrajecten.</p>
+<p><strong>Drie oorzaken van strategische onbekendheid:</strong>
+- De strategie is geformuleerd in abstracte termen die geen gedrag sturen ("we zijn innovatief en klantgericht")
+- De communicatie is eenmalig geweest — een kick-off of presentatie zonder herhaling
+- Medewerkers zien geen verband tussen de strategie en hun dagelijkse werk</p>
+<p><strong>Wat wél werkt:</strong>
+- Strategie vertalen naar concreet gedrag per rol — wat doe jij anders als deze strategie werkt?
+- Herhaling via meerdere kanalen en momenten — niet één grote aankondiging
+- Leiders die de strategie gebruiken als beslissingsframe in dagelijkse gesprekken, niet alleen in presentaties
+- Het normatieve kader als dagelijks referentiepunt — zie Deel 5</p>
+<p><strong>Koppeling met LeadingChange:</strong> Strategie communiceren is Kotter's stap 4 — maar de meeste organisaties stoppen na één communicatiemoment. De iteratieve lus tussen visie en communicatie (lus 1 in Kotter) is precies het mechanisme dat ontbreekt. Zie <code>GOV-ALL-LeadingChange</code> v1.0.</p>
+<p><strong>Koppeling met OvertuigingsPsychologie:</strong> Strategie communiceren is geen informatieoverdracht — het is overtuigen. Zie <code>GOV-ALL-OvertuigingsPsychologie</code> v1.3 voor de principes die bepalen of een boodschap landt.</p>
+<hr />
+<h2>Deel 7: Marketing anno nu — gemak als strategisch principe</h2>
+<p>Een korte maar scherpe observatie uit het blok die directe relevantie heeft voor go-to-market strategie:</p>
+<p><strong>Het draait om gemak — op twee niveaus:</strong>
+- <strong>Makkelijk aan je denken</strong> — ben je top-of-mind op het moment dat de klant de behoefte heeft? Marketing is grotendeels het bouwen van mentale beschikbaarheid.
+- <strong>Makkelijk kunnen kopen</strong> — verlaag de drempel zo ver mogelijk. Elke stap die een klant moet zetten om te kopen is een lek in je conversie.</p>
+<p><strong>De Hooked-metafoor (de magische koelkast):</strong> Een koelkast die zelf bestelt als de melk op is, is niet innovatief omdat hij slim is — hij is succesvol omdat hij het aankoopmoment elimineert. De beste strategie maakt de klant niet bewuster, maar de aankoop onbewuster.</p>
+<p><strong>Praktische implicatie:</strong> Bij het beoordelen van go-to-market plannen altijd twee vragen stellen:
+- Hoe makkelijk is het voor de doelgroep om aan ons te denken op het juiste moment?
+- Hoeveel stappen moet de klant zetten om te kopen — en welke kunnen we elimineren?</p>
+<hr />
+<h2>Deel 8: Paul's Praktijk — toepassingen per context</h2>
+<h3>Als sparringpartner bij directie</h3>
+<p>Directies denken vaak in activiteiten, niet in positionering. Porter's drie richtingen zijn een effectieve opening omdat ze herkenbaar zijn en onmiddellijk een keuze afdwingen.</p>
+<p><strong>Diagnostische vragen bij intake:</strong>
+- "Op welke van de drie richtingen concurreer je — en is dat een bewuste keuze?"
+- "Wat zou je moeten loslaten om die positie echt waar te maken?"
+- "Weet iedereen in de organisatie op welke richting jullie inzetten?"
+- "Wat is jullie Why — en herkennen medewerkers hem in dagelijkse beslissingen?"
+- "Hebben jullie principes in volgorde staan — of alleen waarden op de muur?"</p>
+<p><strong>Sequentie in het gesprek:</strong>
+1. Porter als opener — snel, herkenbaar, dwingt tot keuze
+2. Inside-out als verdieping — wat kunnen jullie al, en bouwen jullie daar op?
+3. Why als fundament — wat is de bestaansreden die verder gaat dan de businesscase?
+4. Normatief kader als sluitstuk — hoe vertalen we dit naar dagelijkse beslissingen?</p>
+<h3>Als projectvormgever</h3>
+<p>Strategie is de context waarin projecten betekenis krijgen. Zonder strategisch kader is een project een activiteit — met strategisch kader is het een investering.</p>
+<p><strong>Bij het kaderen van een project:</strong>
+- Welke strategische richting (Porter) dient dit project — en hoe?
+- Bouwt dit project op wat de organisatie al goed kan (inside-out)?
+- Is dit project consistent met de Why van de organisatie?
+- Welke principes uit het normatieve kader zijn relevant voor dit project?</p>
+<h3>In proposities</h3>
+<ul>
+<li>Porter gebruiken om de positionering van de klant te articuleren vóórdat je een voorstel schrijft</li>
+<li>Inside-out denken gebruiken om te identificeren welke krachten van de klant het project kan versterken</li>
+<li>Normatief kader aanbieden als deliverable bij strategietrajecten — het is concreet, het is co-creatief, en het heeft directe operationele waarde</li>
+</ul>
+<hr />
+<h2>Aantekeningen voor volgende versie</h2>
+<ul>
+<li><code>GOV-ALL-Osterwalder</code> bouwen: BMC en Value Proposition Canvas als verdieping op Porter — businessmodelontwerp als strategisch instrument</li>
+<li><code>GOV-ALL-InfiniteGame</code> bouwen: Sinek's lange termijndenken en het onderscheid eindige vs. oneindige spelers — directe relevantie voor strategie in snel veranderende markten</li>
+<li>Porter's vijf krachten toevoegen als aanvullend analysemodel naast de drie richtingen</li>
+<li>Blue Ocean Strategy (Kim &amp; Mauborgne) verkennen als aanvulling: strategie als het creëren van nieuwe marktruimte in plaats van concurreren in bestaande</li>
+<li>Normatief kader uitwerken met een workshopformat: hoe faciliteer je het triage-proces in een directieteam?</li>
+<li>Praktijkvoorbeelden toevoegen (anoniem) van de diagnosegesprekken</li>
+</ul>
+<hr />
+<p><em>Dit document is een levend werkdocument. Versie verhogen bij elke substantiële aanvulling vanuit nieuwe praktijkervaringen.</em></p>
+</div>
+
+<div class="doc-footer">
+  <span>© Paul Willems — WillemsWorks</span>
+  <a href="index.html">← Terug naar overzicht</a>
+</div>
+
+</body>
+</html>
