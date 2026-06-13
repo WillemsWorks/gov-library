@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Verkennen & Verankeren — Paul Willems GOV Library</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -246,9 +247,62 @@
       .disclaimer { margin-left: 20px; margin-right: 20px; }
       .doc-title { font-size: 28px; }
     }
+  
+    /* Topnav */
+    .topnav {
+      background: var(--purple-dark);
+      border-bottom: 1px solid rgba(196,255,72,0.15);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .topnav-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 48px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .topnav-logo img { display: block; }
+    .topnav-links { display: flex; gap: 8px; }
+    .topnav-link {
+      font-family: 'Sora', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      color: rgba(255,255,255,0.55);
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 4px;
+      transition: color 0.12s, background 0.12s;
+    }
+    .topnav-link:hover,
+    .topnav-link.active {
+      color: var(--lime);
+      background: rgba(196,255,72,0.07);
+    }
+    @media (max-width: 640px) {
+      .topnav-inner { padding: 0 20px; }
+    }
+
   </style>
 </head>
 <body>
+
+  <!-- Navbar -->
+  <nav class="topnav">
+    <div class="topnav-inner">
+      <a href="index.html" class="topnav-logo">
+        <img src="logo-dark.svg" alt="WillemsWorks" height="28">
+      </a>
+      <div class="topnav-links">
+        <a href="index.html" class="topnav-link active">Kennisbasis</a>
+        <a href="werkwijze.html" class="topnav-link">Werkwijze</a>
+      </div>
+    </div>
+  </nav>
 
 <div class="topbar">
   <span>Paul Willems — GOV Library</span>
