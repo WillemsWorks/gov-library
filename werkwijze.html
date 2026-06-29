@@ -359,7 +359,7 @@
     <h1 class="doc-title">Werkwijze Paul Willems</h1>
     <p class="doc-subtitle">Instructieset voor Claude — van toepassing in alle projecten en accounts. Beschrijft werkwijze, GOV Library-gebruik, toon en gedragsregels.</p>
     <div class="doc-meta">
-      <span><strong>Versie</strong> v1.0</span>
+      <span><strong>Versie</strong> v1.1</span>
       <span><strong>Datum</strong> juni 2026</span>
       <span><strong>Geldig voor</strong> alle Claude-projecten en -accounts</span>
     </div>
@@ -498,13 +498,13 @@ Bij GOV docs: eerst bouwen als artifact in de chat en bespreken. Pas als Paul ze
 (1) omzetten naar HTML in de stijl van de GOV Library,
 (2) uploaden naar GitHub (WillemsWorks/gov-library repo via GitHub API),
 (3) index.html bijwerken zodat de pagina zichtbaar is in de kennisbasis,
-(4) oude pagina's omleiden naar de nieuwe als de naam verandert.
-Markdown bronversie altijd mee uploaden als .md bestand.</p>
+(4) oude pagina's omleiden naar de nieuwe als de naam verandert.</p>
           <p><strong>GOV-doc bouwproces — altijd in deze volgorde:</strong></p>
           <ol>
             <li>Schrijf het doc als <strong>Markdown artifact in de chat</strong> — dit is het werkformaat voor snelle review en correcties</li>
             <li>Verwerk feedback van Paul in het MD artifact</li>
             <li>Pas als het doc akkoord is: omzetten naar <strong>gestileerde HTML</strong></li>
+            <li><strong>Kruisreferenties controleren</strong> — loop bij elke publicatie van een nieuw GOV-doc of update van een bestaand GOV-doc alle kruisverwijzingen in alle GOV-docs na en update ze in beide richtingen (heen- én terugverwijzing), zodat de verwijzingen tussen documenten kloppen vóórdat je pusht. Check hierbij ook of versienummers die in andere docs worden genoemd nog overeenkomen met de huidige versie van het doc zelf</li>
             <li>HTML pushen naar GitHub via de API — dit is de enige bron van waarheid</li>
             <li>Index bijwerken en eventuele oude pagina redirect instellen</li>
             <li>MD bestand wordt <strong>niet</strong> naar GitHub gepusht — MD is tijdelijk werkformaat, HTML is definitief</li>
