@@ -1,0 +1,17 @@
+{
+  "docs": [
+    {"file": "leading-change.html", "titel": "LeadingChange", "onderwerpen": ["verandermanagement", "Kotter", "dual operating system", "urgentie creëren", "coalities bouwen", "change leadership"]},
+    {"file": "team-psychologie.html", "titel": "TeamPsychologie", "onderwerpen": ["psychologische veiligheid", "SCARF", "teamdynamiek", "groepsontwikkeling", "Kramer", "Sinek", "Insights Jung", "Gallup Q12", "sterktebenadering", "Edmondson"]},
+    {"file": "they-ask-you-answer.html", "titel": "TheyAskYouAnswer", "onderwerpen": ["B2B-sales", "contentmarketing", "Marcus Sheridan", "TAYA"]},
+    {"file": "strategie.html", "titel": "Strategie", "onderwerpen": ["strategische positionering", "Porter", "inside-out strategie", "Sinek's Why", "Ansoff"]},
+    {"file": "organisatie.html", "titel": "Organisatie", "onderwerpen": ["organisatieontwerp", "Mintzberg", "coördinatiemechanismen"]},
+    {"file": "culture-map.html", "titel": "CultureMap", "onderwerpen": ["interculturele samenwerking", "Erin Meyer", "cross-culturele communicatie"]},
+    {"file": "overtuigingspsychologie.html", "titel": "OvertuigingsPsychologie", "onderwerpen": ["gedragspsychologie", "overtuigingswetenschap", "Cialdini", "Kahneman"]},
+    {"file": "lean-startup.html", "titel": "LeanStartup", "onderwerpen": ["Lean Startup", "innovatievalidatie", "Build-Measure-Learn"]},
+    {"file": "innovatie.html", "titel": "Innovatie", "onderwerpen": ["innovatiemanagement", "energietransitie", "installatiebranche", "business model innovatie"]},
+    {"file": "verkennen-verankeren.html", "titel": "VerkennenVerankeren", "onderwerpen": ["ontwerp vs uitvoering", "organisatiediagnose", "verankering van verandering"]},
+    {"file": "leiderschap.html", "titel": "Leiderschap", "onderwerpen": ["leiderschapsontwikkeling", "Kouzes Posner"]},
+    {"file": "faciliteren.html", "titel": "Faciliteren", "onderwerpen": ["workshopfacilitatie", "groepsprocessen"]}
+  ],
+  "toelichting": "Als een research-item bij geen van deze onderwerpen goed past, plaats het item dan in research-log/ongeplaatst.md in plaats van het te forceren in het dichtstbijzijnde thema. Update dit bestand zodra er een nieuw GOV-doc live gaat."
+}
