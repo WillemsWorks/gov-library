@@ -442,5 +442,18 @@
   <a href="digest.html">&larr; Alle edities</a>
 </footer>
 
+
+  <script>
+    // Dropdown toggle
+    document.querySelectorAll(".topnav-dropdown-toggle").forEach(toggle => {
+      toggle.addEventListener("click", e => {
+        e.stopPropagation();
+        toggle.closest(".topnav-dropdown").classList.toggle("open");
+      });
+    });
+    document.addEventListener("click", () => {
+      document.querySelectorAll(".topnav-dropdown").forEach(d => d.classList.remove("open"));
+    });
+  </script>
 </body>
 </html>
