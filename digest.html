@@ -337,5 +337,18 @@
   © Paul Willems — WillemsWorks &nbsp;·&nbsp; <a href="https://willemsworks.nl">willemsworks.nl</a>
 </footer>
 
+
+  <script>
+    // Dropdown toggle
+    document.querySelectorAll(".topnav-dropdown-toggle").forEach(toggle => {
+      toggle.addEventListener("click", e => {
+        e.stopPropagation();
+        toggle.closest(".topnav-dropdown").classList.toggle("open");
+      });
+    });
+    document.addEventListener("click", () => {
+      document.querySelectorAll(".topnav-dropdown").forEach(d => d.classList.remove("open"));
+    });
+  </script>
 </body>
 </html>
