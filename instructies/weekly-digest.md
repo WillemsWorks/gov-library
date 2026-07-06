@@ -44,7 +44,15 @@ Streef naar 5-8 items. Kwaliteit boven kwantiteit.
 
 Bereken het ISO-weeknummer van de publicatiedatum zelf (bijv. `datetime.isocalendar()`). Nooit aannemen — reken na.
 
-**Clusterindeling (nog in ontwikkeling):** zodra `gov-index.json` een `cluster`-veld per doc heeft, groepeer items in de digest onder die clusterkoppen in plaats van vrije thema-labels. Tot die tijd: gebruik een kort, vrij thema-label per item zoals nu.
+**Clusterindeling (definitief):** groepeer elk digest-item onder één van de vier vaste clusters uit `gov-index.json`:
+- Verandering & Leiderschap
+- Team & Mensen
+- Innovatie & Marketing
+- Commercie & Klant
+
+Elk doc in `gov-index.json` heeft een `cluster`-veld — gebruik dat om een item te clusteren op basis van het GOV-doc waar het bij hoort.
+
+**Uitzondering: Strategie.** Dit doc heeft geen vast cluster (`cluster: null`, `context_afhankelijk: true`). Beoordeel per Strategie-gerelateerd artikel zelf: gaat het over richting/positionering vóór een veranderopgave → Verandering & Leiderschap. Gaat het over het verkennen/valideren van een nieuwe propositie of markt → Innovatie & Marketing. Geen vaste regel, per artikel op inhoud beoordelen (zie `beslisregel`-veld in gov-index.json).
 
 ## Stap 4 — Opslaan (lokaal)
 
