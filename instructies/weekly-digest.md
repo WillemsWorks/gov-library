@@ -67,7 +67,7 @@ Outputformaat:
 
 ---
 
-## [Thema]
+## [Clusternaam — zie hierboven, of "Strategie" met vermelding van het gekozen cluster erbij]
 **[Titel](URL)**
 *[Bron] · [datum]*
 **GOV-koppeling:** [frameworknaam]
