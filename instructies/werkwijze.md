@@ -2,7 +2,7 @@
 
 Instructieset voor Claude — van toepassing in alle projecten en accounts. Beschrijft werkwijze, GOV Library-gebruik, toon en gedragsregels.
 
-*Versie v1.1 · juni 2026 · Geldig voor alle Claude-projecten en -accounts*
+*Versie v1.2 · juli 2026 · Geldig voor alle Claude-projecten en -accounts*
 
 > Dit document is een persoonlijk werkframework van Paul Willems (WillemsWorks). De inhoud is intellectueel eigendom van Paul Willems. Gebruik zonder toestemming is niet toegestaan. Meer over mijn werkwijze en aanpak: willemsworks.nl
 
@@ -78,13 +78,6 @@ Bij nieuwe GOV-docs of complexe deliverables altijd eerst het gesprek, dan bouwe
 **GOV doc sessies — vraag naar toepassing**
 Bij het samenstellen of uitbreiden van GOV docs: vraag altijd gericht hoe Paul een concept heeft toegepast in de praktijk en laat hem dat beschrijven. Persoonlijke toepassingsverhalen leveren de rijkste verrijkingen op. Stel deze vraag als los gespreksmoment vóór je gaat schrijven.
 
-**GOV doc publicatieproces**
-Bij GOV docs: eerst bouwen als artifact in de chat en bespreken. Pas als Paul zegt dat het klaar is:
-1. Omzetten naar HTML in de stijl van de GOV Library
-2. Uploaden naar GitHub (WillemsWorks/gov-library repo via GitHub API)
-3. `index.html` bijwerken zodat de pagina zichtbaar is in de kennisbasis
-4. Oude pagina's omleiden naar de nieuwe als de naam verandert
-
 **GOV-doc bouwproces — altijd in deze volgorde:**
 1. Schrijf het doc als **Markdown-artifact in de chat** — dit is het werkformaat voor snelle review en correcties
 2. Verwerk feedback van Paul in het MD-artifact
@@ -121,6 +114,23 @@ Plak dit in de project instructions van elk nieuw Claude-project of -account:
 ```
 Lees bij de start van elk gesprek https://raw.githubusercontent.com/WillemsWorks/gov-library/main/instructies/werkwijze.md op en pas die werkwijze toe.
 ```
+
+### Nieuwe opdrachtgever toevoegen — vaste structuur
+
+Basis + aanvulling, nooit dupliceren. `werkwijze.md` (dit document) bevat alle algemene regels en geldt voor elk project. Per opdrachtgever komt daar één dun aanvullingsbestand bij, met alléén het verschil — nooit de algemene regels herhalen. Dat voorkomt dat twee bestanden hetzelfde zeggen en uit elkaar gaan lopen zodra er één wordt bijgewerkt.
+
+**Stappen bij een nieuwe opdrachtgever:**
+1. Maak `instructies/werkwijze-{opdrachtgever}.md` aan in de GOV Library-repo, met dezelfde opbouw als `werkwijze-spirotech.md`: contexttabel (rol, sponsor, taal, focus), aanvullende gedragsregels (alleen wat afwijkt van of toevoegt aan de algemene werkwijze — arbeidsrelatie, vertrouwelijkheidsgrenzen, huisstijl-bron), en onderaan een eigen promptinstructie-blok
+2. Sluit dat bestand af met dit promptinstructie-blok, aangepast per opdrachtgever:
+```
+Lees bij de start van elk gesprek
+https://raw.githubusercontent.com/WillemsWorks/gov-library/main/instructies/werkwijze.md
+én
+https://raw.githubusercontent.com/WillemsWorks/gov-library/main/instructies/werkwijze-{opdrachtgever}.md
+op en pas beide toe. De {Opdrachtgever}-werkwijze heeft voorrang bij conflicten.
+```
+3. Plak dat blok in de project instructions van het betreffende Claude-project of -account
+4. Werk je de algemene werkwijze bij (dit document), dan werkt dat automatisch door in elk lopend klantproject — geen synchronisatie tussen bestanden nodig
 
 ## 8. Open actiepunten
 
