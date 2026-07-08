@@ -9,7 +9,7 @@
 - **GOV-ALL-LeadingChange v1.1** — Kotter + SCARF geïntegreerd. Kotter is sequentieel in structuur, iteratief in uitvoering — drie loops. SCARF geldt over de hele verandertrajectum, niet per fase.
 - **GOV-ALL-VerkennenVerankeren v1.1** — De twee creaties zijn fundamenteel anders van aard, niet alleen sequentieel. Meeste organisaties misframen een ontwerpprobleem als uitvoeringsprobleem.
 - **GOV-ALL-Organisatie v1.0** — Mintzberg.
-- **GOV-ALL-Strategie v1.0** — Porter / Hamel / Sinek.
+- **GOV-ALL-Strategie v1.1** — Treacy & Wiersema vóór Porter (outside-in eerst), Hamel/Prahalad, Ansoff, vier Infinite Game-elementen geïntegreerd (Just Cause, Worthy Rival, Existential Flexibility, Courage to Lead), Christensen als risicodimensie met vooruitwijzing naar Innovatie.
 - **GOV-ALL-OvertuigingsPsychologie v1.3** — DENK Producties seminar. REDUCE framework (Berger), sociale bewijskracht, Sharon's gedeelde waarheid. Koppeling met CultureMap: overtuigingstechnieken werken anders per cultuur.
 - **GOV-ALL-TheyAskYouAnswer v1.0** — Marcus Sheridan. Actief toegepast bij Plieger en Spirotech. Content structuur: probleem-eerst, technologie-tweede. Kostenvideo = meest impactvolle startpunt voor bijna elk bedrijf.
 - **GOV-ALL-Innovatie v1.0** — Lean Startup, Christensen en Osterwalder samengevoegd tot één werkend geheel. RPV-diagnose-instrument (vier vragen) getoetst aan acht cases (Nucor, IKEA, iTunes/platenzaken, Quatt/WeHeat, Uber/Airbnb, Picnic/Just Eat als tegenvoorbeelden, Sony/Apple). Osterwalder als diagnose én ontwerp. Gepubliceerd juli 2026 incl. kruisreferentie-pass in vijf verwante docs.
