@@ -20,11 +20,13 @@
 
 ## Backlog — Te bouwen
 
+- **GOV-ALL-FramemakingSale v1.0** `Hoog` — *The Framemaking Sale* (Brent Adamson & Karl Schmidt, 2025), met Gartner-onderzoek (regret-data, buying journey) en koppeling aan The JOLT Effect (Dixon & McKenna) en de Kraljic-matrix. In opbouw als "v1.0 in ontwikkeling" — Paul leest het boek nog. Prioriteit boven CustomerMaturity v1.3 gezet (juli 2026). Conceptbestand in review.
 - **Infinite Game — als lens over de bibliotheek** `Hoog` — Simon Sinek. Geen apart doc — wordt de inleiding van GOV-ALL-Principes (capstone). De vijf elementen als wegwijzers door de bibliotheek: Just Cause → Strategie + Leiderschap / Trusting Teams → TeamPsychologie + LeadingChange / Worthy Rival → Strategie + TAYA / Existential Flexibility → Strategie + Innovatie + Weak Signals / Courage to Lead → LeadingChange + Strategie. In GOV-ALL-Strategie v1.1 worden Just Cause, Worthy Rival, Existential Flexibility en Courage to Lead geïntegreerd als secties — niet als apart hoofdstuk.
-- **GOV-ALL-CustomerMaturity v1.3 publiceren** `Hoog` — Eigen vijffasenmodel voor commerciële volwassenheid — v1.3 teruggehaald (juli 2026), inhoudelijk compleet. GOV-ALL-Innovatie is nu gepubliceerd — Osterwalder-verwijzing kan hierheen. Klaar om te bouwen: versieverwijzingen actualiseren (Strategie v1.1, LeadingChange v1.1) + kruisreferentie-pass in vijf verwante docs.
+- **GOV-ALL-CustomerMaturity v1.3 publiceren** `Midden` — *Tijdelijk on hold (juli 2026): GOV-ALL-FramemakingSale krijgt voorrang.* Eigen vijffasenmodel voor commerciële volwassenheid — v1.3 teruggehaald (juli 2026), inhoudelijk compleet. Paul ziet dit inmiddels als een concluderend/synthetiserend framework waarin andere GOV-docs (waaronder Framemaking Sale) samenkomen — mogelijk zelf ook een publicatie waard. Finale versie samen met Claude te bouwen zodra de bouwstenen (o.a. Framemaking Sale) klaar zijn. GOV-ALL-Innovatie is gepubliceerd — Osterwalder-verwijzing kan hierheen. Vóór publicatie: versieverwijzingen actualiseren (Strategie v1.1, LeadingChange v1.1) + kruisreferentie-pass in vijf verwante docs.
 - **GOV-ALL-Leiderschap v1.1** `Midden` — Update van bestaande v1.0. Inhoud en scope nog te bepalen in gesprek.
 - **GOV-ALL-ScalingUp** `Midden` — Verne Harnish.
 - **GOV-ALL-PsychologischeVeiligheid** `Midden` — Amy Edmondson. Was onderdeel van TeamPsychologie maar verdient eigen document. Koppeling met LeadingChange en TeamPsychologie.
+- **TeamPsychologie-aanvulling: drie teamambities (Eva de Mol)** `Laag` — Geparkeerde observatie (juli 2026) uit een podcast met Eva de Mol (ondernemer/investeerder/onderzoeker naar teamsucces): drie soorten passie/ambitie binnen teams — Inventor (ontwerp), Developer (team/proces), Founder (het vestigen van een start). Contra-intuïtief inzicht: als de ambities van de leiding over deze drie te ver uiteenlopen, ontstaat geen consensus over waar te investeren, en faalt het team. Nog te verkennen of en hoe dit GOV-ALL-TeamPsychologie aanvult — expliciet los van GOV-ALL-FramemakingSale.
 - **GOV-ALL-Principes** `Laag` — Capstone / sluitstuk van de hele bibliotheek. Op te bouwen als de rest compleet is. Bevat de overkoepelende principes die door alle GOV docs heen lopen.
 
 ## Onderhoud
@@ -39,6 +41,7 @@
 - **Backlog toevoegen aan index.html** `Vervallen` — Vervallen juli 2026: de backlog is zelf verplaatst naar instructies/backlog.md (backend, niet publiek), dus een publieke Backlog-link in de navigatie is niet meer van toepassing.
 - **Substack artikel referentie toevoegen aan disclaimer** `Open` — Zodra eerste artikel gepubliceerd is.
 - **Spirotech skill bouwen** `Open` — Wachten op beschikbaarheid Spirotech brand guidelines.
+- **Datavisualisatie B2B-koopreis (vertrouwen × % reis zonder verkoper × tevredenheid)** `Open` — Geparkeerd (juli 2026) als los stuk voor een toekomstige Substack/LinkedIn-publicatie, gevoed door Gartner-data verzameld tijdens de opbouw van GOV-ALL-FramemakingSale. Nadrukkelijk geen onderdeel van het GOV-doc zelf.
 
 ## Vervallen / Gearchiveerd
 
