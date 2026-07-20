@@ -31,7 +31,7 @@
 
 ## Onderhoud
 
-- **Cowork scheduled task: token- en digestmap verplaatsen** `Open` — `Documents/Claude/` kan niet als Context-map gekoppeld worden aan de scheduled task ("Kennisbank weekly digest"), want Cowork reserveert `Documents/Claude/Scheduled/` voor zijn eigen taakconfiguratie en blokkeert elke overlappende map. Oplossing: `.gov-library-token` en `Kennisbank-Digests/` verplaatsen naar een map buiten `Documents/Claude/` (bijv. `Documents/GOV-Library-Data/`), die map koppelen als Context, de `gov-library-html`-skill ook toevoegen aan de taak (staat er nu nog niet bij), en de paden in Stap 0 en Stap 4 van instructies/weekly-digest.md bijwerken naar de nieuwe locatie.
+- **Cowork scheduled task: tokenpad verplaatsen** `Open` — `Documents/Claude/` kan niet als Context-map gekoppeld worden aan de scheduled task ("Kennisbank weekly digest"), want Cowork reserveert `Documents/Claude/Scheduled/` voor zijn eigen taakconfiguratie en blokkeert elke overlappende map. Besluit (juli 2026): lokale digestopslag (was Stap 4) is geschrapt uit `instructies/weekly-digest.md` — de GOV Library op GitHub is het enige eindstation, geen lokale kopie meer nodig. `Kennisbank-Digests/` vervalt dus. Resterend: alleen `.gov-library-token` verplaatsen naar een map buiten `Documents/Claude/` (bijv. `Documents/GOV-Library-Data/`), die map koppelen als Context, en de `gov-library-html`-skill toevoegen aan de taak (staat er nu nog niet bij). Paul heeft de token-verplaatsing lokaal uitgevoerd — nog te bevestigen dat Cowork de map als Context accepteert en de taak weer draait.
 
 - **Terugverwijzingen oudere docs** `Open` — Oudere docs missen backverwijzingen naar gerelateerde GOV docs. Niet consequent aanwezig — doorvoeren bij volgende versie-update per doc.
 - **Infinite Game koppelingen toevoegen aan bestaande docs** `Open` — Na opbouw GOV-ALL-Strategie v1.1 de Infinite Game lens verwerken in: GOV-ALL-TeamPsychologie (Trusting Teams — verwijzing naar LeadingChange) · GOV-ALL-LeadingChange (Courage to Lead als verandermoment, Trusting Teams als veiligheidsvoorwaarde) · GOV-ALL-TheyAskYouAnswer (Worthy Rival — TAYA als leerloop over wat de markt al vraagt) · GOV-ALL-Innovatie (Existential Flexibility + Weak Signals koppeling). Strategie krijgt Just Cause, Worthy Rival, Existential Flexibility en Courage to Lead als geïntegreerde secties in v1.1.
@@ -47,3 +47,4 @@
 
 - **DubbeleCreatie** `Vervallen` — Concept vervallen. Relevante elementen opgenomen in GOV-ALL-VerkennenVerankeren.
 - **GOV-ALL-TeamintelligentieKramer v1.1** `Vervangen` — Vervangen door GOV-ALL-TeamPsychologie v2.0 als onderdeel van de thematische bibliotheekfilosofie.
+
