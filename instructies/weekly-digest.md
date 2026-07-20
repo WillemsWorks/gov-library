@@ -7,8 +7,9 @@ opvolgen. Wijzigingen aan hoe de digest werkt: alleen hier aanpassen.*
 ## Doel
 
 Vind nieuwe publicaties, artikelen en onderzoek van de afgelopen 7 dagen
-die relevant zijn voor Paul's GOV Library. Maak een compacte digest,
-publiceer op meerdere plekken (lokaal, research-log, HTML-pagina).
+die relevant zijn voor Paul's GOV Library. Maak een compacte digest en
+publiceer die naar de GOV Library op GitHub — research-log, digest-archief
+en HTML-pagina. Geen lokale kopie: de GOV Library is het enige eindstation.
 
 ## Skills die deze taak gebruikt
 
@@ -54,12 +55,7 @@ Elk doc in `gov-index.json` heeft een `cluster`-veld — gebruik dat om een item
 
 **Uitzondering: Strategie.** Dit doc heeft geen vast cluster (`cluster: null`, `context_afhankelijk: true`). Beoordeel per Strategie-gerelateerd artikel zelf: gaat het over richting/positionering vóór een veranderopgave → Verandering & Leiderschap. Gaat het over het verkennen/valideren van een nieuwe propositie of markt → Innovatie & Marketing. Geen vaste regel, per artikel op inhoud beoordelen (zie `beslisregel`-veld in gov-index.json).
 
-## Stap 4 — Opslaan (lokaal)
-
-Map: `/Users/paul/Documents/Claude/Kennisbank-Digests/`
-Bestand: `digest-[YYYY-MM-DD].md`
-
-Outputformaat:
+Outputformaat (basis voor Stap 5 en Stap 6):
 ```
 # 📚 Kennisbank Update — week [weeknummer], [datum]
 
@@ -82,7 +78,7 @@ Outputformaat:
 *Automatisch gegenereerd op [datum] · GOV Library van Paul Willems*
 ```
 
-## Stap 4b — Research-log (via gov-library-github-sync skill)
+## Stap 4 — Research-log (via gov-library-github-sync skill)
 
 1. Haal `research-log/gov-index.json` op
 2. Bepaal per item het best passende doc-bestand; past niets: `research-log/ongeplaatst.md`
@@ -95,18 +91,18 @@ Outputformaat:
    ```
 4. Commit-message: `Research-log update [datum]: [thema]`
 
-## Stap 4c — Digest-archief (via gov-library-github-sync skill)
+## Stap 5 — Digest-archief (via gov-library-github-sync skill)
 
 1. PUT naar `research-log/digest-latest.md` (overschrijven)
 2. PUT naar `research-log/digests/digest-[YYYY-MM-DD].md` (nieuw)
 
-## Stap 4d — HTML-publicatie (via gov-library-html + gov-library-github-sync skills)
+## Stap 6 — HTML-publicatie (via gov-library-html + gov-library-github-sync skills)
 
 Volg de workflow "nieuwe digest-editie publiceren" uit de gov-library-html skill. Publiceer als `digest-[YYYY-MM-DD].html`, voeg kaart toe aan `digest.html`.
 
 ## Afsluiting
 
-Presenteer het lokale bestand via `mcp__cowork__present_files`. Meld kort: GitHub-publicatie gelukt / overgeslagen (geen token of skill) / gedeeltelijk gefaald (en welk deel).
+Meld kort: GitHub-publicatie gelukt (met link naar `digest-[YYYY-MM-DD].html`) / overgeslagen (geen token of skill) / gedeeltelijk gefaald (en welk deel).
 
 ## Regels
 
