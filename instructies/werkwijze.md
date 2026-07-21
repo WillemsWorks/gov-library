@@ -83,6 +83,7 @@ Bij nieuwe GOV-docs of complexe deliverables altijd eerst het gesprek, dan bouwe
 Bij het samenstellen of uitbreiden van GOV docs: vraag altijd gericht hoe Paul een concept heeft toegepast in de praktijk en laat hem dat beschrijven. Persoonlijke toepassingsverhalen leveren de rijkste verrijkingen op. Stel deze vraag als los gespreksmoment vóór je gaat schrijven.
 
 **GOV-doc bouwproces — altijd in deze volgorde:**
+0. **Research-log raadplegen vóór het schrijven** — haal `research-log/[doc-bestand].md` op (bij een nieuw doc: het beoogde `file`-veld uit `gov-index.json`, ook als status daar nog `backlog` is) en neem de openstaande items (status: `nieuw`) door. Bepaal per item of het een plek krijgt in het doc — als input voor "Verrijking en nieuwe inzichten" of "Paul's Praktijk". Verwerkte items krijgen bij publicatie status `verwerkt` (zie sectie 3, status-levenscyclus)
 1. Schrijf het doc als **Markdown-artifact in de chat** — dit is het werkformaat voor snelle review en correcties
 2. Verwerk feedback van Paul in het MD-artifact
 3. Pas als het doc akkoord is: omzetten naar **gestileerde HTML**
