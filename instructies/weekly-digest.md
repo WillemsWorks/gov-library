@@ -55,7 +55,7 @@ Elk doc in `gov-index.json` heeft een `cluster`-veld — gebruik dat om een item
 
 **Uitzondering: Strategie.** Dit doc heeft geen vast cluster (`cluster: null`, `context_afhankelijk: true`). Beoordeel per Strategie-gerelateerd artikel zelf: gaat het over richting/positionering vóór een veranderopgave → Verandering & Leiderschap. Gaat het over het verkennen/valideren van een nieuwe propositie of markt → Innovatie & Marketing. Geen vaste regel, per artikel op inhoud beoordelen (zie `beslisregel`-veld in gov-index.json).
 
-Outputformaat (basis voor Stap 5 en Stap 6):
+Outputformaat (basis voor Stap 4 en Stap 5):
 ```
 # 📚 Kennisbank Update — week [weeknummer], [datum]
 
@@ -68,7 +68,7 @@ Outputformaat (basis voor Stap 5 en Stap 6):
 *[Bron] · [datum]*
 **GOV-koppeling:** [frameworknaam]
 
-[Kern: 2-3 zinnen]
+[Kern: 2-3 zinnen] ([bron →](URL))
 
 💡 *[Toepassing: 1-2 zinnen]*
 
@@ -77,6 +77,8 @@ Outputformaat (basis voor Stap 5 en Stap 6):
 ---
 *Automatisch gegenereerd op [datum] · GOV Library van Paul Willems*
 ```
+
+**Bronlink bij de Kern-paragraaf verplicht:** naast de link op de titel krijgt ook de Kern-paragraaf zelf een link naar de bron (zie `(bron →)` hierboven) — zo is de bron direct zichtbaar bij de conclusie, niet alleen bij de titel.
 
 ## Stap 4 — Research-log (via gov-library-github-sync skill)
 
@@ -91,14 +93,9 @@ Outputformaat (basis voor Stap 5 en Stap 6):
    ```
 4. Commit-message: `Research-log update [datum]: [thema]`
 
-## Stap 5 — Digest-archief (via gov-library-github-sync skill)
+## Stap 5 — HTML-publicatie (via gov-library-html + gov-library-github-sync skills)
 
-1. PUT naar `research-log/digest-latest.md` (overschrijven)
-2. PUT naar `research-log/digests/digest-[YYYY-MM-DD].md` (nieuw)
-
-## Stap 6 — HTML-publicatie (via gov-library-html + gov-library-github-sync skills)
-
-Volg de workflow "nieuwe digest-editie publiceren" uit de gov-library-html skill. Publiceer als `digest-[YYYY-MM-DD].html`, voeg kaart toe aan `digest.html`.
+Volg de workflow "nieuwe digest-editie publiceren" uit de gov-library-html skill. Publiceer als `digest-[YYYY-MM-DD].html`, voeg kaart toe aan `digest.html`. Elke Kern-paragraaf (`.digest-item p`) krijgt aan het einde een link naar de bron-URL van dat item (zie `assets/digest-page-template.html`), naast de link op de titel.
 
 ## Afsluiting
 
@@ -110,3 +107,4 @@ Meld kort: GitHub-publicatie gelukt (met link naar `digest-[YYYY-MM-DD].html`) /
 - Bondig — leesbaar op een telefoon
 - Geen opvulling, geen samenvatting van samenvattingen
 - Minder dan 3 relevante items: zeg dat eerlijk
+
