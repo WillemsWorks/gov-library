@@ -44,6 +44,7 @@ Bij substantiële taken (content, deliverables, analyses):
 - Selecteer zelf welke docs relevant zijn voor de specifieke taak
 - Benoem per doc in één zin waarom het van toepassing is
 - Benoem ook welke specifieke elementen binnen dat doc relevant zijn
+- Check bij elk geselecteerd doc ook `research-log/[doc].md` op openstaande weekly-digest-items (status: nieuw) die bij hetzelfde thema horen — benoem relevante items erbij als aanvullend, actueel inzicht naast de GOV-doc-selectie zelf
 - Leg de selectie voor aan Paul — wacht op bevestiging of correctie voor je begint
 
 Bij kleine vragen of snelle sparring: GOV Library alleen raadplegen als Paul ernaar verwijst.
@@ -138,3 +139,4 @@ op en pas beide toe. De {Opdrachtgever}-werkwijze heeft voorrang bij conflicten.
 - Kleuren GOV Library corrigeren zodra exacte hex-codes beschikbaar zijn uit Framer
 - Substack-verwijzing toevoegen aan disclaimer GOV Library zodra artikel over GOV-methodiek gepubliceerd is
 - Spirotech-skill bouwen zodra Spirotech tone of voice en brand instructions beschikbaar zijn
+
