@@ -1,21 +1,27 @@
 {
   "docs": [
-    {"file": "leading-change.html", "titel": "LeadingChange", "cluster": "Verandering & Leiderschap", "onderwerpen": ["verandermanagement", "Kotter", "dual operating system", "urgentie creëren", "coalities bouwen", "change leadership"]},
-    {"file": "verkennen-verankeren.html", "titel": "VerkennenVerankeren", "cluster": "Verandering & Leiderschap", "onderwerpen": ["ontwerp vs uitvoering", "organisatiediagnose", "verankering van verandering"]},
-    {"file": "leiderschap.html", "titel": "Leiderschap", "cluster": "Verandering & Leiderschap", "onderwerpen": ["leiderschapsontwikkeling", "Kouzes Posner"]},
-    {"file": "faciliteren.html", "titel": "Faciliteren", "cluster": "Verandering & Leiderschap", "onderwerpen": ["workshopfacilitatie", "groepsprocessen"]},
+    {"file": "leading-change.html", "titel": "LeadingChange", "status": "live", "cluster": "Verandering & Leiderschap", "onderwerpen": ["verandermanagement", "Kotter", "dual operating system", "urgentie creëren", "coalities bouwen", "change leadership"]},
+    {"file": "verkennen-verankeren.html", "titel": "VerkennenVerankeren", "status": "live", "cluster": "Verandering & Leiderschap", "onderwerpen": ["ontwerp vs uitvoering", "organisatiediagnose", "verankering van verandering"]},
+    {"file": "leiderschap.html", "titel": "Leiderschap", "status": "live", "cluster": "Verandering & Leiderschap", "onderwerpen": ["leiderschapsontwikkeling", "Kouzes Posner"]},
+    {"file": "faciliteren.html", "titel": "Faciliteren", "status": "live", "cluster": "Verandering & Leiderschap", "onderwerpen": ["workshopfacilitatie", "groepsprocessen"]},
 
-    {"file": "team-psychologie.html", "titel": "TeamPsychologie", "cluster": "Team & Mensen", "onderwerpen": ["psychologische veiligheid", "SCARF", "teamdynamiek", "groepsontwikkeling", "Kramer", "Sinek", "Insights Jung", "Gallup Q12", "sterktebenadering", "Edmondson"]},
-    {"file": "culture-map.html", "titel": "CultureMap", "cluster": "Team & Mensen", "onderwerpen": ["interculturele samenwerking", "Erin Meyer", "cross-culturele communicatie"]},
-    {"file": "overtuigingspsychologie.html", "titel": "OvertuigingsPsychologie", "cluster": "Team & Mensen", "onderwerpen": ["gedragspsychologie", "overtuigingswetenschap", "Cialdini", "Kahneman"]},
-    {"file": "organisatie.html", "titel": "Organisatie", "cluster": "Team & Mensen", "onderwerpen": ["organisatieontwerp", "Mintzberg", "coördinatiemechanismen", "mensen plaatsen op de juiste plek"]},
+    {"file": "team-psychologie.html", "titel": "TeamPsychologie", "status": "live", "cluster": "Team & Mensen", "onderwerpen": ["psychologische veiligheid", "SCARF", "teamdynamiek", "groepsontwikkeling", "Kramer", "Sinek", "Insights Jung", "Gallup Q12", "sterktebenadering", "Edmondson"]},
+    {"file": "culture-map.html", "titel": "CultureMap", "status": "live", "cluster": "Team & Mensen", "onderwerpen": ["interculturele samenwerking", "Erin Meyer", "cross-culturele communicatie"]},
+    {"file": "overtuigingspsychologie.html", "titel": "OvertuigingsPsychologie", "status": "live", "cluster": "Team & Mensen", "onderwerpen": ["gedragspsychologie", "overtuigingswetenschap", "Cialdini", "Kahneman"]},
+    {"file": "organisatie.html", "titel": "Organisatie", "status": "live", "cluster": "Team & Mensen", "onderwerpen": ["organisatieontwerp", "Mintzberg", "coördinatiemechanismen", "mensen plaatsen op de juiste plek"]},
 
-    {"file": "lean-startup.html", "titel": "LeanStartup", "cluster": "Innovatie & Marketing", "onderwerpen": ["Lean Startup", "innovatievalidatie", "Build-Measure-Learn"]},
-    {"file": "innovatie.html", "titel": "Innovatie", "cluster": "Innovatie & Marketing", "onderwerpen": ["innovatiemanagement", "Christensen", "Osterwalder", "business model innovatie", "Jobs to be Done", "energietransitie", "installatiebranche"]},
+    {"file": "lean-startup.html", "titel": "LeanStartup", "status": "live", "cluster": "Innovatie & Marketing", "onderwerpen": ["Lean Startup", "innovatievalidatie", "Build-Measure-Learn"]},
+    {"file": "innovatie.html", "titel": "Innovatie", "status": "live", "cluster": "Innovatie & Marketing", "onderwerpen": ["innovatiemanagement", "Christensen", "Osterwalder", "business model innovatie", "Jobs to be Done", "energietransitie", "installatiebranche"]},
 
-    {"file": "they-ask-you-answer.html", "titel": "TheyAskYouAnswer", "cluster": "Commercie & Klant", "onderwerpen": ["B2B-sales", "contentmarketing", "Marcus Sheridan", "TAYA"]},
+    {"file": "they-ask-you-answer.html", "titel": "TheyAskYouAnswer", "status": "live", "cluster": "Commercie & Klant", "onderwerpen": ["B2B-sales", "contentmarketing", "Marcus Sheridan", "TAYA"]},
+    {"file": "framemaking-sale.html", "titel": "FramemakingSale", "status": "live", "cluster": "Commercie & Klant", "onderwerpen": ["Framemaking Sale", "Adamson", "Schmidt", "Gartner buying journey", "JOLT Effect", "Kraljic-matrix", "regret-data"]},
 
-    {"file": "strategie.html", "titel": "Strategie", "cluster": null, "context_afhankelijk": true, "cluster_opties": ["Verandering & Leiderschap", "Innovatie & Marketing"], "beslisregel": "Gaat het artikel over richting/positionering vóór een veranderopgave: Verandering & Leiderschap. Gaat het over het verkennen/valideren van een nieuwe propositie of markt: Innovatie & Marketing. Geen vaste regel — per artikel op inhoud beoordelen.", "onderwerpen": ["strategische positionering", "Porter", "inside-out strategie", "Sinek's Why", "Ansoff", "Treacy Wiersema", "Hamel Prahalad"]}
+    {"file": "strategie.html", "titel": "Strategie", "status": "live", "cluster": null, "context_afhankelijk": true, "cluster_opties": ["Verandering & Leiderschap", "Innovatie & Marketing"], "beslisregel": "Gaat het artikel over richting/positionering vóór een veranderopgave: Verandering & Leiderschap. Gaat het over het verkennen/valideren van een nieuwe propositie of markt: Innovatie & Marketing. Geen vaste regel — per artikel op inhoud beoordelen.", "onderwerpen": ["strategische positionering", "Porter", "inside-out strategie", "Sinek's Why", "Ansoff", "Treacy Wiersema", "Hamel Prahalad"]},
+
+    {"file": "customer-maturity.html", "titel": "CustomerMaturity", "status": "backlog", "cluster": "Commercie & Klant", "onderwerpen": ["customer maturity", "klantgedrag als input", "commerciële volwassenheid", "vijffasenmodel", "customer-centric organisatie"]},
+    {"file": "scaling-up.html", "titel": "ScalingUp", "status": "backlog", "cluster": "Verandering & Leiderschap", "onderwerpen": ["Scaling Up", "Verne Harnish", "Rockefeller Habits", "groeimanagement", "prioriteiten en cadans"]},
+    {"file": "psychologische-veiligheid.html", "titel": "PsychologischeVeiligheid", "status": "backlog", "cluster": "Team & Mensen", "onderwerpen": ["psychologische veiligheid", "Edmondson", "teamleren", "fearless organization"]},
+    {"file": "principes.html", "titel": "Principes", "status": "backlog", "cluster": null, "context_afhankelijk": true, "beslisregel": "Capstone-doc met Infinite Game (Sinek) als inleidende lens. Just Cause → Strategie + Leiderschap. Trusting Teams → TeamPsychologie + LeadingChange. Worthy Rival → Strategie + TheyAskYouAnswer. Existential Flexibility → Strategie + Innovatie. Courage to Lead → LeadingChange + Strategie. Beoordeel per artikel welk element/cluster het raakt.", "onderwerpen": ["Infinite Game", "Sinek", "Just Cause", "Worthy Rival", "Existential Flexibility", "Courage to Lead", "Trusting Teams", "overkoepelende principes"]}
   ],
   "clusters": [
     "Verandering & Leiderschap",
@@ -23,5 +29,5 @@
     "Innovatie & Marketing",
     "Commercie & Klant"
   ],
-  "toelichting": "Als een research-item bij geen van deze onderwerpen goed past, plaats het item dan in research-log/ongeplaatst.md in plaats van het te forceren in het dichtstbijzijnde thema. Strategie heeft geen vast cluster — beoordeel per artikel via de beslisregel. Update dit bestand zodra er een nieuw GOV-doc live gaat, inclusief het juiste cluster-veld."
+  "toelichting": "Als een research-item bij geen van deze onderwerpen goed past, plaats het item dan in research-log/ongeplaatst.md in plaats van het te forceren in het dichtstbijzijnde thema. Strategie en Principes hebben geen vast cluster — beoordeel per artikel via de beslisregel. Status-veld: 'live' = doc is gepubliceerd op de bijbehorende HTML-pagina, 'backlog' = doc staat nog in instructies/backlog.md en heeft nog geen publieke pagina. Beide statussen worden meegenomen in de wekelijkse zoekopdrachten (Stap 1 van weekly-digest.md) — bij een 'backlog'-doc wordt het gevonden item toch gelogd in research-log/[file zonder .html].md, alvast klaar voor zodra het doc gepubliceerd wordt, en krijgt de GOV-koppeling in de digest de toevoeging '(backlog)'. Update dit bestand zodra een backlog-doc live gaat: zet status op 'live' en verwijder eventuele context_afhankelijk-tijdelijkheid als die niet meer van toepassing is."
 }
