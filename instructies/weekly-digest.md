@@ -22,7 +22,9 @@ Als een van beide skills niet beschikbaar/ingeschakeld is: meld dit expliciet, s
 
 Haal `research-log/gov-index.json` op (publiek, geen token nodig via raw.githubusercontent.com). Gebruik de `onderwerpen`-lijst van elk doc in dit bestand als basis voor zoekopdrachten — niet een vaste, hardcoded lijst. Zo zoekt de taak automatisch mee zodra er een nieuw GOV-doc bijkomt in dit bestand, zonder dat deze instructie hoeft te veranderen.
 
-Vertaal de onderwerpen naar minimaal 6 gerichte zoekopdrachten, verdeeld over de aanwezige docs — niet alle 12+ docs per se elke week, maar wel over de volle breedte heen gedurende meerdere weken.
+**Live én backlog tellen mee.** Elk doc heeft een `status`-veld: `live` (gepubliceerde pagina) of `backlog` (nog geen publieke pagina, staat in `instructies/backlog.md`). Zoek op de onderwerpen van beide statussen — een backlog-doc heeft evengoed actuele input nodig tegen de tijd dat het gebouwd wordt.
+
+Vertaal de onderwerpen naar minimaal 6 gerichte zoekopdrachten, verdeeld over de aanwezige docs (live én backlog) — niet alle docs per se elke week, maar wel over de volle breedte heen gedurende meerdere weken.
 
 ## Stap 2 — Filteren
 
@@ -37,7 +39,7 @@ Neem alleen items op die:
 Schrijf per item:
 - **Titel** met URL
 - **Bron & datum**
-- **GOV-koppeling**: welk GOV-framework dit raakt (1 zin)
+- **GOV-koppeling**: welk GOV-framework dit raakt (1 zin). Hoort het item bij een `backlog`-doc (nog geen publieke pagina): voeg " (backlog)" toe aan de framenaam, bijv. "GOV-koppeling: CustomerMaturity (backlog)"
 - **Kern**: wat is er nieuw of inzichtelijk (2-3 zinnen, Nederlands)
 - **Toepassing**: hoe Paul dit kan gebruiken als interim manager/consultant (1-2 zinnen, Nederlands)
 
@@ -83,7 +85,7 @@ Outputformaat (basis voor Stap 4 en Stap 5):
 ## Stap 4 — Research-log (via gov-library-github-sync skill)
 
 1. Haal `research-log/gov-index.json` op
-2. Bepaal per item het best passende doc-bestand; past niets: `research-log/ongeplaatst.md`
+2. Bepaal per item het best passende doc-bestand (gebruik het `file`-veld zonder `.html`, ook bij `status: backlog` — die pagina bestaat nog niet, maar het research-log-bestand alvast wel); past niets: `research-log/ongeplaatst.md`
 3. Voeg per bestand onderaan toe:
    ```
    ## [datum] — [Titel](URL)
@@ -107,4 +109,5 @@ Meld kort: GitHub-publicatie gelukt (met link naar `digest-[YYYY-MM-DD].html`) /
 - Bondig — leesbaar op een telefoon
 - Geen opvulling, geen samenvatting van samenvattingen
 - Minder dan 3 relevante items: zeg dat eerlijk
+
 
