@@ -53,6 +53,9 @@ Bij kleine vragen of snelle sparring: GOV Library alleen raadplegen als Paul ern
 https://willemsworks.github.io/gov-library
 ```
 
+**Status-levenscyclus research-log-items**
+Elk item in `research-log/[doc].md` heeft een status: `nieuw` (nog niet besproken/verwerkt) of `verwerkt` (besproken en opgenomen in het GOV-doc). Alleen items met status `nieuw` tellen mee als openstaand — bij de GOV-docselectie hierboven, en bij het openingsoverzicht van het kwartaalgesprek. Zodra een item tijdens het kwartaalgesprek besproken en daadwerkelijk verwerkt is in een GOV-doc, wordt de status automatisch bijgewerkt naar `verwerkt` (geen aparte bevestiging per item nodig) — het item blijft staan als historie, maar verdwijnt uit de lijst van openstaande items.
+
 ## 4. Taal
 
 - **Denktaal** — altijd Nederlands
