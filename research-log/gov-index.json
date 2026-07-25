@@ -15,6 +15,7 @@
 
     {"file": "they-ask-you-answer.html", "titel": "TheyAskYouAnswer", "status": "live", "cluster": "Commercie & Klant", "onderwerpen": ["B2B-sales", "contentmarketing", "Marcus Sheridan", "TAYA"]},
     {"file": "framemaking-sale.html", "titel": "FramemakingSale", "status": "live", "cluster": "Commercie & Klant", "onderwerpen": ["Framemaking Sale", "Adamson", "Schmidt", "Gartner buying journey", "JOLT Effect", "Kraljic-matrix", "regret-data"]},
+    {"file": "verhaalstructuur.html", "titel": "Verhaalstructuur", "status": "live", "cluster": "Commercie & Klant", "onderwerpen": ["storytelling", "Herman Wegter", "protagonist", "antagonist", "verhaalstructuur", "7 stappen", "narratief", "content"]},
 
     {"file": "strategie.html", "titel": "Strategie", "status": "live", "cluster": null, "context_afhankelijk": true, "cluster_opties": ["Verandering & Leiderschap", "Innovatie & Marketing"], "beslisregel": "Gaat het artikel over richting/positionering vóór een veranderopgave: Verandering & Leiderschap. Gaat het over het verkennen/valideren van een nieuwe propositie of markt: Innovatie & Marketing. Geen vaste regel — per artikel op inhoud beoordelen.", "onderwerpen": ["strategische positionering", "Porter", "inside-out strategie", "Sinek's Why", "Ansoff", "Treacy Wiersema", "Hamel Prahalad"]},
 
