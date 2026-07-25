@@ -62,3 +62,79 @@ https://raw.githubusercontent.com/WillemsWorks/gov-library/main/instructies/werk
 https://raw.githubusercontent.com/WillemsWorks/gov-library/main/instructies/werkwijze-spirotech.md
 op en pas beide toe. De Spirotech-werkwijze heeft voorrang bij conflicten.
 ```
+
+## Communicatiefilter — Culture Map toegepast op Spirotech
+
+*Verplaatst vanuit de publieke `GOV-ALL-CultureMap`-pagina (juli 2026) — dit is Spirotech-interne informatie en hoort niet op een publiek toegankelijke pagina. De publieke Culture Map bevat alleen het generieke, methodiek-gedeelte (de acht dimensies en Paul's persoonlijk profiel); deze toepassing op Spirotech's specifieke situatie staat alleen hier.*
+
+**Spirotech's eigen cultuurpositie**
+
+Spirotech beschrijft zichzelf expliciet als: "Family owned business, social and open direct Dutch culture, flat hierarchy, team spirit." De Tone of Voice is informeel en direct — de "friendly expert." Dit is een bewuste merkidentiteit, ook richting internationale markten.
+
+**Het spanningsveld:** Het merk is Nederlands-direct, maar veel markten waarin Spirotech opereert zijn hiërarchischer en indirecter. De organisatiecultuur intern is Nederlands; de communicatiecultuur extern moet cultureel geïnformeerd zijn.
+
+**Filter per doelgroep en situatie**
+
+Gebruik onderstaande matrix als voorbereiding op communicatie. Stel jezelf altijd drie vragen: 1. Wie is het publiek? 2. Wat is het moment? 3. Wat pas ik aan — en wat niet?
+
+*Nederlandse directie en collega's*
+
+| Dimensie | Aanpak |
+|---|---|
+| Communicating | Direct en expliciet — geen omwegen |
+| Evaluating | Direct feedback is verwacht en gewaardeerd |
+| Leading | Vlak — ideeën van onderaf zijn normaal |
+| Deciding | Consensus — betrek mensen, maar kom ook met een standpunt |
+| Trusting | Taakgebaseerd — lever resultaat, dan volgt vertrouwen |
+| Persuading | Concrete resultaten werken goed, maar onderbouw ook kort het kader |
+
+⚠️ **Valkuil:** Te terughoudend of te voorzichtig wordt hier gelezen als niet-doortastend of ineffectief. Wees direct en neem standpunten in — ook als je nieuw bent.
+
+*Duits / Oostenrijkse collega's en leidinggevenden*
+
+| Dimensie | Aanpak |
+|---|---|
+| Communicating | Laagcontext, maar formeler dan NL — wees precies en volledig |
+| Evaluating | Direct in zakelijke context, maar formeler dan NL — geen informele kritiek |
+| Leading | Meer hiërarchisch dan NL — respecteer de positie van lokale leidinggevenden |
+| Deciding | Meer top-down — de leidinggevende beslist, consultatie is niet altijd gewenst |
+| Trusting | Taakgebaseerd, maar opbouw gaat langzamer dan in NL |
+| Persuading | Principles-first — begin met het kader en de logica, dan pas de toepassing |
+
+⚠️ **Kritiek risico voor change leadership:** Verbetervoorstellen die de lokale leidinggevende passeren of voor schut zetten creëren weerstand die nooit inhoudelijk is maar altijd relationeel. Eerst de leidinggevende, dan de werkvloer. Altijd.
+
+⚠️ **Culturele dissonantie:** Nederlanders en Duitsers lijken dicht bij elkaar — dezelfde directheid wordt aangenomen. Maar het Deciding- en Persuading-verschil is reëel en wordt onderschat.
+
+*UK salesteam*
+
+| Dimensie | Aanpak |
+|---|---|
+| Communicating | Laagcontext in principe, maar meer omwegen dan NL |
+| Evaluating | Aanzienlijk indirecter dan NL — "overall fine, maybe some suggestions" = sterke kritiek |
+| Leading | Redelijk egalitair maar formeler dan NL |
+| Deciding | Mix — consultatie is belangrijk, maar uiteindelijk beslist de senior |
+| Trusting | Meer relatiegebaseerd dan NL — investeer in de relatie buiten vergaderingen |
+| Persuading | Applications-first — kom met cases en resultaten |
+
+⚠️ **Valkuil:** Britse indirectheid wordt door Nederlanders structureel onderschat. "That's quite interesting" kan betekenen "ik geloof er niets van."
+
+*US salesteam*
+
+| Dimensie | Aanpak |
+|---|---|
+| Communicating | Laagcontext — expliciet en direct in structuur |
+| Evaluating | Schijnbaar positief maar indirect negatief — veel positieve verpakking rond kritiek |
+| Leading | Egalitair in stijl, maar hiërarchisch in beslissing |
+| Deciding | Relatief top-down in executie |
+| Trusting | Taakgebaseerd maar met peach-laag — warm en open aan de oppervlakte |
+| Persuading | Sterk Applications-first — begin met de case, de theorie volgt |
+
+⚠️ **Valkuil:** Amerikaanse enthousiasme ("this is amazing!") is geen commitment. Onderscheid enthousiasme van instemming.
+
+*Internationale agenten (nader te specificeren per regio)*
+
+Zolang de landen van agenten niet bekend zijn: gebruik de Culture Map als diagnostisch instrument. Eerste stap bij elk nieuw land: zoek de positie op de acht dimensies en bepaal de gaps t.o.v. jouw eigen profiel en t.o.v. de Nederlandse Spirotech-cultuur.
+
+Vuistregel: hoe groter de gap op Deciding en Trusting, hoe meer je moet investeren in relatieopbouw vóór je inhoudelijk kunt werken.
+
+Specifieke landen van Spirotech-agenten toevoegen zodra bekend.
