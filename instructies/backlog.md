@@ -17,6 +17,7 @@
 - **GOV-ALL-CultureMap v1.0** — Erin Meyer.
 - **GOV-ALL-TeamPsychologie v2.1** — Was GOV-ALL-TeamintelligentieKramer. Eerste toepassing van de thematische filosofie: auteurs worden bronnen binnen een thema. Bronnen: Kramer, Sinek, Insights/Jung, Ansoff. v2.1: versienummering geharmoniseerd (juli 2026).
 - **GOV-ALL-Leiderschap v1.0** — Basisversie. Update naar v1.1 staat in backlog.
+- **GOV-ALL-Verhaalstructuur v1.0** — Herman Wegter, *Goed verhaal!*. Zeven stappen als speelveld, niet keurslijf — Protagonist wisselen verandert het hele verhaal. Antagonist/draak zit besloten in stap 4 (Obstakels), geen aparte stap. Koppeling met Kotter (GOV-ALL-LeadingChange v1.2, wederkerig bijgewerkt): stap 1-3 van Wegter als verhaalvorm voor Kotters stap 1-3. Illustraties: Hoomie (compleet verhaal) en Sanquin (gedeeltelijke/incident-gedreven correctie). Gepubliceerd juli 2026.
 
 ## Backlog — Te bouwen
 
@@ -28,6 +29,8 @@
 - **GOV-ALL-PsychologischeVeiligheid** `Midden` — Amy Edmondson. Was onderdeel van TeamPsychologie maar verdient eigen document. Koppeling met LeadingChange en TeamPsychologie.
 - **TeamPsychologie-aanvulling: drie teamambities (Eva de Mol)** `Laag` — Geparkeerde observatie (juli 2026) uit een podcast met Eva de Mol (ondernemer/investeerder/onderzoeker naar teamsucces): drie soorten passie/ambitie binnen teams — Inventor (ontwerp), Developer (team/proces), Founder (het vestigen van een start). Contra-intuïtief inzicht: als de ambities van de leiding over deze drie te ver uiteenlopen, ontstaat geen consensus over waar te investeren, en faalt het team. Nog te verkennen of en hoe dit GOV-ALL-TeamPsychologie aanvult — expliciet los van GOV-ALL-FramemakingSale.
 - **GOV-ALL-Principes** `Laag` — Capstone / sluitstuk van de hele bibliotheek. Op te bouwen als de rest compleet is. Bevat de overkoepelende principes die door alle GOV docs heen lopen.
+- **GOV-ALL-StoryBrand** `Midden` — Donald Miller. Lang geleden gelezen door Paul — vraagt een eigen verdiepingsgesprek ("wat vond je het belangrijkste") voordat het wordt gebouwd. Na opbouw: samenvoegen met GOV-ALL-Verhaalstructuur tot één thematisch document GOV-ALL-Storytelling (algemene structuur + klanttoepassing). Kern die al bekend is: klant als held, niet Paul.
+- **Jung-archetypes — koppeling aan storytelling/branding** `Laag` — Geparkeerd (juli 2026) vanuit GOV-ALL-Verhaalstructuur. Drie voorlopige koppelingen: (1) de 12 archetypes (Pearson/Mark, niet Jung zelf — operationalisering van Jungs werk) om de Protagonist (Wegter stap 1) scherper te karakteriseren; (2) Jungs Schaduw-concept als psychologische bron voor de antagonist/draak (Deel 2 van Verhaalstructuur); (3) archetypes ook bruikbaar om de klant-als-held in StoryBrand vorm te geven — raakt dus twee openstaande onderwerpen tegelijk. Boekadvies gegeven aan Paul: *The Hero and the Outlaw* (Mark & Pearson, 2001) voor directe toepassing; *Man and His Symbols* (Jung, 1964) voor de psychologische grondslag (Schaduw-concept). Nog te bepalen: eigen document, of onderdeel van Verhaalstructuur/StoryBrand/TeamPsychologie (die al Insights/Jung als bron heeft, maar dan team-typering — andere toepassing).
 
 ## Onderhoud
 
