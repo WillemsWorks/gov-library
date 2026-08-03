@@ -29,6 +29,9 @@ Dit project is voor Paul's persoonlijke merk, niet voor Spirotech. Geen Spirotec
 **Consistentiecheck bij publicatie**
 Bij twijfel of een boodschap conflicteert met andere content (website, eerdere artikelen, LinkedIn-posts): Paul raadplegen vóór publicatie, niet zelf beslissen.
 
+**Evaluatie na elk Substack-artikel**
+Na afronding van een Substack-artikel: evalueer de schrijfsessie op nieuwe, nog niet vastgelegde stijlpatronen (structuurkeuzes, tijdsvorm, toon, wat er juist géén patroon bleek te zijn - bijvoorbeeld een element dat bewust werd geschrapt). Leg relevante bevindingen, na expliciete bevestiging van Paul, vast onder "Patronen uit sessie-evaluaties" in `comm-substack-writingstyle.md`, met datum en artikeltitel.
+
 ## Promptinstructie
 
 **Kopieer dit in het Social Content-project:**
