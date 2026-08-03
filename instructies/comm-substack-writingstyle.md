@@ -483,5 +483,27 @@
 
 ---
 
+## Patronen uit sessie-evaluaties
+
+Na afronding van een Substack-artikel wordt de schrijfsessie geëvalueerd op nieuwe stijlpatronen die nog niet elders in dit document staan. Bevindingen worden hier toegevoegd, met datum en artikeltitel, na expliciete bevestiging van Paul.
+
+### 3 augustus 2025 — "Dierkes was de propositie"
+
+**Tegenwoordige tijd voor herbeleefde herinneringen, verleden tijd voor het overzicht erna.** Zodra een geur, geluid of ander zintuiglijk detail de schrijver terugtrekt in de tijd, blijft de tekst in de tegenwoordige tijd tot het verhaal bewust "uitzoomt" naar wat er later gebeurde. Die overgang moet functioneel zijn - een echte stap terug in de tijd - niet een ongelukkige wissel middenin een alinea.
+
+**Geen tussenkopjes bij scène-gedreven persoonlijke stukken.** Voor verhalen die op beleving en scènes leunen (in tegenstelling tot stukken met expliciet opgesomde "lessen") blijft de tekst doorlopend, zonder H2's. Tussenkopjes horen bij les-gedreven artikelen, niet bij scène-gedreven verhalen.
+
+**Isoleer de kernzin als eigen alinea.** Een verzamelende, thesis-achtige zin die het thema van het stuk samenvat krijgt witruimte om zich heen - een eigen, korte alinea - in plaats van ingebed te worden in een langere alinea.
+
+**Geen zakelijke bridge aan het eind van persoonlijke stukken.** Zelfs een zachte, niet-verkoperige versie ("Ik help organisaties nadenken over...") voelt gehaast aan onder een persoonlijk verhaal. Alleen de vaste tagline-regel ("Paul Willems deelt observaties uit het dagelijks leven over innovatie, merk en marketing"), geen CTA naar professionele dienstverlening.
+
+**Benoem de kern expliciet, met een woord dat al eerder in het stuk viel.** Een vage emotionele slotzin ("het doet me denken aan...") wordt vervangen door het noemen van de concrete kwaliteit (bijvoorbeeld "dienstbaarheid") - bij voorkeur een woord dat eerder in het artikel al gebruikt is, zodat het einde als bookend werkt in plaats van een nieuw begrip te introduceren.
+
+**Zakelijke/analytische inserts eruit, ook als de observatie zelf klopt.** Een alinea die als consultant-uitleg leest ("En dat is niet zomaar een zinnetje...") hoort niet thuis in een scène-gedreven verhaal, ook al is de onderliggende observatie juist. De kern wordt in plaats daarvan verweven in de omringende zin.
+
+**Concrete, geverifieerde specificiteit boven vage claims.** Exacte tijdvakken (bijv. "tussen 9:00 en 9:30"), vergelijkende cijfers, fysieke details, en reële namen van personen/bedrijven worden altijd gecheckt vóór publicatie - transcriptiefouten in namen (bijv. verkeerd gespelde CTO-namen) worden actief opgespoord, niet alleen gecorrigeerd wanneer ze toevallig opvallen.
+
+---
+
 *Dit document is specifiek ontwikkeld voor Substack artikelen en complementeert de algemene business communicatie richtlijnen uit COMM-ALL-ToneOfVoice.*
 -
