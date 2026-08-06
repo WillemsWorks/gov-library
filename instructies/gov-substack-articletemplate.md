@@ -8,8 +8,8 @@
 
 **⚠️ BELANGRIJK: Gebruik altijd de nieuwste versie van dit document. Oudere versies zijn niet meer geldig voor implementatie.**
 
-**Versie:** 1.1  
-**Laatst bijgewerkt:** 17 augustus 2025
+**Versie:** 1.2  
+**Laatst bijgewerkt:** 3 augustus 2025
 
 ---
 
@@ -18,6 +18,7 @@
 | Versie | Datum | Belangrijkste Wijzigingen |
 |--------|--------|---------------------------|
 | **1.1** | 17 augustus 2025 | **Strategische CTA plaatsing toegevoegd** - Nieuwe sectie 8 met 6 strategische CTA momenten gedefinieerd. LinkedIn posts uitgebreid naar zakelijke relevantie focus. Substack Notes toegevoegd voor persoonlijke belevenissen. Illustratie markers geïntegreerd. Artikel vereisten uitgebreid met engagement optimization. |
+| **1.2** | 3 augustus 2025 | **Note-cadans toegevoegd** - Substack Notes-sectie uitgebreid met sequencing-strategie: eerste Note als brede aankondiging (kern in het klein, geen clou), vervolgnotes elk over precies één specifiek onderdeel uit het artikel. Vastgelegd n.a.v. gepubliceerde aankondiging bij 'Over sigaren en de overeenkomst tussen keukenramen en levervensters'. |
 | **1.0** | 24 juli 2025 | **Initiële versie** - Substack artikel generator template gecreëerd op basis van bestaande prompt. Inclusief onderscheid met WillemsWorks communicatie, LinkedIn promotie richtlijnen, en complete artikel structuur voor personal branding doeleinden. |
 
 ---
@@ -414,6 +415,16 @@ Belangrijkste inzicht: [Actionable lesson]
 **Focus:** Technische observaties in menselijke context
 **Lengte:** 120-180 woorden
 **Tone:** Analytisch maar toegankelijk, pragmatisch
+
+### Note-cadans (sequencing strategie)
+
+**Note 1 - Aankondiging:** direct bij publicatie van het artikel. Bevat de kern van het hele verhaal in het klein - alle hoofdelementen kort genoemd - maar geeft de clou niet weg. Eindigt op een intrigerende constatering die uitnodigt om het volledige artikel te lezen.
+
+**Vervolgnotes - elk over precies één specifiek onderdeel:** geen herhaling van de samenvatting, maar een uitvergroting van één quote, detail of inzicht uit het artikel. Gespreid over de dagen na de aankondiging, zodat het artikel meerdere keren terugkomt zonder herhaling te voelen.
+
+**Voorbeeld (3 augustus 2025, "Over sigaren en de overeenkomst tussen keukenramen en levervensters"):**
+Aankondiging-Note: een verkorte versie van de openingsscène (podcast tijdens hardlooprondje → geur van sigarenrook → kruidenier Dierkes), eindigend op "de overeenkomsten tussen Picnic nu en onze kruidenier toen blijken groter dan ik dacht" - zonder te verklappen wát die overeenkomsten zijn.
+Vervolgnotes: één note over de kernzin ("hoe iets verkocht wordt is belangrijker dan wat je verkocht wordt", opgehangen aan de Franse marktscène), één over een sfeerdetail (het blocnote/de rekening), één over het terugkerende motief (het keukenraam).
 
 ---
 
