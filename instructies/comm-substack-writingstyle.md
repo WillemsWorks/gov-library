@@ -8,8 +8,8 @@
 
 **⚠️ BELANGRIJK: Gebruik altijd de nieuwste versie van dit document. Oudere versies zijn niet meer geldig voor implementatie.**
 
-**Versie:** 1.1  
-**Laatst bijgewerkt:** 17 augustus 2025
+**Versie:** 1.2  
+**Laatst bijgewerkt:** 13 augustus 2026
 
 ---
 
@@ -17,6 +17,7 @@
 
 | Versie | Datum | Belangrijkste Wijzigingen |
 |--------|--------|---------------------------|
+| **1.2** | 13 augustus 2026 | **Storytelling-mapping verplicht gesteld** - Nieuwe verplichte voorbereidingsstap in Deel 2: elk Substack-artikel wordt vóór het schrijven gemapt volgens GOV-ALL-Storytelling (Wegter-structuur altijd, StoryBrand-positionering waar relevant), met terugkoppelroute naar research-log/storytelling.md voor praktijkinzichten die het GOV-doc zelf verfijnen. Kwaliteitscontrole-checklist in Deel 9 uitgebreid met bijbehorend controlepunt. |
 | **1.1** | 17 augustus 2025 | **Strategische CTA integratie + Substack technische specificaties** - Nieuwe Deel 6 & 7 over Substack CTA strategie met technische beperkingen. CTA frequentie aangepast naar 3-6 per artikel met verplichte Subscribe en Comment. Quote box formatting geïntegreerd. LinkedIn vs Substack Notes distinctie toegevoegd. Engagement optimization principles aangepast aan platform mogelijkheden. |
 | **1.0** | 24 juli 2025 | **Initiële versie** - Substack-specifieke schrijfstijl richtlijnen gecreëerd op basis van bestaande communicatiestijl instructie. Focus op thought leadership, persoonlijke observaties en verhalende content voor expertise positioning. Geïntegreerd in document governance systeem. |
 
@@ -59,6 +60,33 @@
 ---
 
 # DEEL 2: ARTIKEL STRUCTUUR
+
+## Verplichte Voorbereidingsstap: Storytelling-mapping
+
+Vóór het schrijven van elk Substack-artikel wordt het verhaal eerst gemapt
+volgens `GOV-ALL-Storytelling` (Wegter + StoryBrand):
+
+- **Wegter-structuur** (Deel 1) — altijd toepassen: Protagonist, Call to
+  Adventure, Man op de Maan, Obstakels, Climax, Einde, Moraal.
+- **StoryBrand-positionering** (Deel 2) — beoordelen of relevant: bij
+  persoonlijke Substack-stukken is er meestal geen klant-als-held, maar bij
+  artikelen met een zakelijke of klantgerichte invalshoek wel.
+
+Zie `GOV-ALL-Storytelling` Deel 4 ("Paul's Praktijk") voor de toepassingsvragen
+per stap en uitgewerkte voorbeelden. Deze mapping wordt kort benoemd tijdens
+het schrijfproces (niet per se in het artikel zelf) en dient als controle op
+verhaalstructuur vóór de definitieve tekst wordt vastgesteld — geen keurslijf,
+wel een verplichte check.
+
+**Terugkoppeling naar het GOV-doc:** levert een Substack-schrijfsessie een
+nieuw praktijkinzicht op dat het Wegter- of StoryBrand-denkkader zelf
+verfijnt (zoals eerder gebeurde bij de Hoomie- en Sanquin-illustraties in
+Deel 4) — dan wordt dat vastgelegd als item met status `nieuw` in
+`research-log/storytelling.md`, volgens dezelfde standaardcyclus als elk
+ander onderwerp in de bibliotheek (research-log-item → beoordeling bij het
+kwartaalgesprek of ad-hoc na bevestiging → eventuele verwerking in
+GOV-ALL-Storytelling). Dit bestand bestaat nog niet en wordt aangemaakt
+zodra het eerste item zich aandient.
 
 ## Typische Opbouw
 
@@ -389,6 +417,9 @@
 ## Pre-Publicatie Checklist
 
 ### Inhoudelijke Check
+- [ ] Is de storytelling-mapping (GOV-ALL-Storytelling) doorlopen vóór het
+      schrijven — Wegter-structuur altijd, StoryBrand-positionering waar
+      relevant?
 - [ ] Begin ik met een concrete, persoonlijke observatie?
 - [ ] Is de verbinding tussen persoonlijk en professioneel duidelijk?
 - [ ] Bied ik nieuwe inzichten of een verfrissende kijk?
