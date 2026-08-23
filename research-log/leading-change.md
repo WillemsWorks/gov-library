@@ -21,4 +21,11 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 ---
 
+## 2026-08-23 — [The Missing Piece of Your Transformation Strategy](https://hbr.org/2026/08/the-missing-piece-of-your-transformation-strategy)
+**Status:** nieuw
+**Bron:** Harvard Business Review · Suketu Gandhi (Kearney) / Adi Ignatius · 21 augustus 2026
+**Kern:** Transformaties mislukken deels doordat organisaties leveranciers en partners buiten de strategieontwikkeling houden. Gandhi stelt dat externe partners vroeg moeten worden aangesloten op de veranderagenda — Kotter's coalitievorming uitgebreid buiten de eigen hiërarchie naar het bredere ecosysteem.
+
+---
+
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->

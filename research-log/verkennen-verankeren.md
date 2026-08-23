@@ -14,4 +14,11 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 ---
 
+## 2026-08-23 — [Before Rolling Out a New Strategy, Assess Your Team's Readiness](https://hbr.org/2026/08/before-rolling-out-a-new-strategy-assess-your-teams-readiness)
+**Status:** nieuw
+**Bron:** Harvard Business Review · Steven Morris (Matter Consulting) · 12 augustus 2026
+**Kern:** Uitvoeringsfouten bij strategie-implementatie komen bijna altijd voort uit onzichtbare gereedheidskloven, niet uit een gebrekkige strategie. Morris onderscheidt drie dimensies: Appetite (eigenaarschap), Capacity (ruimte en middelen) en Skillset (competenties). Praktijkvoorbeelden bij Microsoft en Boeing illustreren de kosten van het overslaan van deze diagnose.
+
+---
+
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->
