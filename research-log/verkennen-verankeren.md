@@ -22,3 +22,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 ---
 
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->
+
+## 2026-08-30 — [AI Transformation Requires Redesigning Work, Not Cutting Roles](https://hbr.org/2026/08/ai-transformation-requires-redesigning-work-not-cutting-roles)
+**Status:** nieuw
+**Bron:** Harvard Business Review · 28 augustus 2026
+**Kern:** Veel organisaties sturen AI-transformaties in de richting van personeelsreductie terwijl de feiten dat nauwelijks ondersteunen. Hoque, Davenport en Scade pleiten voor fundamenteel herontwerpen van werk zelf: analyseer taken in plaats van functies en bepaal waar AI echt meerwaarde levert. Wie menselijk oordeel bewaart voor verantwoordingsgevoelige taken bouwt een slimmere organisatie — geen kleinere.

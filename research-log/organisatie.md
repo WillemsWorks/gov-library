@@ -15,3 +15,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 ---
 
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->
+
+## 2026-08-30 — [Your AI Agents Need Performance Management, Too](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/your-ai-agents-need-performance-management-too)
+**Status:** nieuw
+**Bron:** McKinsey & Company · 26 augustus 2026
+**Kern:** Organisaties die AI-agents inzetten moeten die net zo strategisch managen als menselijk talent — met eigenaarschap, prestatiemonitoring en integratie in werkprocessen. Succesvolle AI-inbedding vereist herontworpen werk, gerichte talentinvestering en een open dialoog over het 'waarom' achter AI-initiatieven. Leiders die AI zelf begrijpen en cognitief welzijn bespreekbaar maken, realiseren bredere organisatorische acceptatie.

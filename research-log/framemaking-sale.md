@@ -15,3 +15,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 ---
 
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->
+
+## 2026-08-30 — [Do Your B2B Customers See the Value You Deliver?](https://hbr.org/2026/08/do-your-b2b-customers-see-the-value-you-deliver)
+**Status:** nieuw
+**Bron:** Harvard Business Review · 25 augustus 2026
+**Kern:** Veel B2B-organisaties kampen met een "value gap": klanten baten bij hun producten maar kunnen die waarde intern niet meetbaar maken of verdedigen. Dit leidt tot vertraagde verlengingsbeslissingen, prijsdruk en gemiste groeikansen. Een leidersgeleide aanpak richt zich op concrete bedrijfsresultaten en bouwt waardeberekening systematisch in het verkoopproces in.

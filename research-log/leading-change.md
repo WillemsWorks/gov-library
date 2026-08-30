@@ -29,3 +29,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 ---
 
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->
+
+## 2026-08-30 — [AI Transformations Run on Trust](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/ai-transformations-run-on-trust)
+**Status:** nieuw
+**Bron:** McKinsey & Company · 12 augustus 2026
+**Kern:** Technologie drijft AI-transformaties aan, maar mensen bepalen of ze slagen. Werknemers die hun organisatie vertrouwen zijn 1,5× minder angstig over AI-veranderingen. Leiders bouwen dit vertrouwen langs vier lijnen: helder plan communiceren, aanwezig zijn bij teams, investeren in vaardighedenontwikkeling, en leidinggevenden op alle niveaus equiperen om vertrouwen te verankeren.
