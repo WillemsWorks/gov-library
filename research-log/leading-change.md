@@ -34,3 +34,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 **Status:** nieuw
 **Bron:** McKinsey & Company · 12 augustus 2026
 **Kern:** Technologie drijft AI-transformaties aan, maar mensen bepalen of ze slagen. Werknemers die hun organisatie vertrouwen zijn 1,5× minder angstig over AI-veranderingen. Leiders bouwen dit vertrouwen langs vier lijnen: helder plan communiceren, aanwezig zijn bij teams, investeren in vaardighedenontwikkeling, en leidinggevenden op alle niveaus equiperen om vertrouwen te verankeren.
+
+## 2026-09-06 — [Middle Managers Will Make or Break AI Adoption](https://hbr.org/2026/09/middle-managers-will-make-or-break-ai-adoption)
+**Status:** nieuw
+**Bron:** Harvard Business Review · 1 september 2026
+**Kern:** AI-implementaties falen niet aan de top of bij leveranciers, maar bij middenmanagers die de kloof moeten overbruggen tussen strategische ambitie en dagelijks gedrag. Tsipursky identificeert vijf managementprofielen — van scepticus tot katalysator — elk met een eigen benaderingsstrategie. Wie alle profielen over één kam scheert, verliest draagvlak en vertraagt de adoptie.

@@ -20,3 +20,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 **Status:** nieuw
 **Bron:** Harvard Business Review · 25 augustus 2026
 **Kern:** Veel B2B-organisaties kampen met een "value gap": klanten baten bij hun producten maar kunnen die waarde intern niet meetbaar maken of verdedigen. Dit leidt tot vertraagde verlengingsbeslissingen, prijsdruk en gemiste groeikansen. Een leidersgeleide aanpak richt zich op concrete bedrijfsresultaten en bouwt waardeberekening systematisch in het verkoopproces in.
+
+## 2026-09-06 — [AI Is Blurring the Line Between Sales and Marketing](https://hbr.org/2026/09/ai-is-blurring-the-line-between-sales-and-marketing)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Chung, Fann e.a.) · 4 september 2026
+**Kern:** Agentic AI doet de traditionele grens tussen marketing en sales vervagen: content personaliseert zich in real-time op basis van verkoopdata, en verkopers krijgen automatisch context uit marketinginteracties. Organisaties moeten ook structuur, meetmethoden en incentivesystemen aanpassen om de klantreis werkelijk te integreren.

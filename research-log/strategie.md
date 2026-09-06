@@ -15,3 +15,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 ---
 
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->
+
+## 2026-09-06 — [Crafting Strategy in the Age of AI](https://hbr.org/2026/08/crafting-strategy-in-the-age-of-ai)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Felipe A. Csaszar) · 7 augustus 2026
+**Kern:** Csaszar laat zien dat AI de beperkingen van menselijke strategisten structureel kan aanvullen: het genereert meer alternatieve opties, doorbreekt tunnelvisie en maakt dynamische scenarioanalyse mogelijk. Beleggers beoordelen AI-geassisteerde businessplannen consistent beter. Het menselijk oordeel blijft nodig voor waardering, context en uiteindelijke keuze.

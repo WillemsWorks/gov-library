@@ -27,3 +27,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 **Status:** nieuw
 **Bron:** Harvard Business Review · 28 augustus 2026
 **Kern:** Veel organisaties sturen AI-transformaties in de richting van personeelsreductie terwijl de feiten dat nauwelijks ondersteunen. Hoque, Davenport en Scade pleiten voor fundamenteel herontwerpen van werk zelf: analyseer taken in plaats van functies en bepaal waar AI echt meerwaarde levert. Wie menselijk oordeel bewaart voor verantwoordingsgevoelige taken bouwt een slimmere organisatie — geen kleinere.
+
+## 2026-09-06 — [Your Transformation Doesn't Need an Endpoint](https://hbr.org/2026/09/your-transformation-doesnt-need-an-endpoint)
+**Status:** nieuw
+**Bron:** Harvard Business Review · 1 september 2026
+**Kern:** Organisaties die transformatie behandelen als een project met een vastgesteld eindpunt, lopen eerder vast dan organisaties die het als een continu leertraject benaderen. Gavett betoogt dat het erkennen van onzekerheid juist de slagingskans vergroot. Aanpassen onderweg is geen tekortkoming maar de kern van een robuust veranderproces.
