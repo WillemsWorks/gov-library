@@ -7,6 +7,13 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 ---
 
+## 2026-09-13 — [Change Management Competencies in 2026: The Skills That Separate Good Leaders from Great Ones](https://thechangeleadership.com/change-management-competencies-in-2026-the-skills-that-separate-good-leaders-from-great-ones)
+**Status:** nieuw
+**Bron:** The Change Leadership · 4 maart 2026
+**Kern:** Vijf competenties voor verandermanagement in 2026: emotionele geletterdheid, aanpassingsvermogen en leeragiliteit, capaciteitsbeheer (verandering als eindig goed — bewust sequencen van initiatieven), strategische zingeving en coalitievorming & invloed. Kernboodschap: goede leiders navigeren door verandering, geweldige leiders bouwen het vermogen om erin te gedijen. Traditionele checklist-aanpak achterhaald; verandering is het permanente operationele klimaat.
+
+---
+
 ## 2026-08-18 — [Driving Change When You Lack Authority](https://hbr.org/2026/08/driving-change-when-you-lack-authority)
 **Status:** nieuw
 **Bron:** Harvard Business Review · 11 augustus 2026

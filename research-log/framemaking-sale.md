@@ -14,6 +14,11 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 ---
 
+## 2026-09-13 — [Gartner: 69% of B2B Buyers Turn to Sales Reps to Validate AI-Generated Insights](https://www.gartner.com/en/newsroom/press-releases/2026-05-20-gartner-survey-finds-sixty-nine-percent-of-b-two-b-buyers-turn-to-sales-reps-to-validate-ai-generated-insights)
+**Status:** nieuw
+**Bron:** Gartner (CSO & Sales Leader Conference) · 20 mei 2026
+**Kern:** Paradox: 67% van B2B-kopers prefereert rep-free ervaring, maar 69% wendt zich toch tot een salesrep om AI-inzichten te valideren. 51% bezorgd over misleidende AI-info; kopers gebruiken gemiddeld 7 informatiebronnen. De rol van de salesrep verschuift van informatiebron naar vertrouwensanker op het kritieke beslismoment. Sluit aan op de Gartner-kopreis en JOLT-effect in het GOV-doc.
+
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->
 
 ## 2026-08-30 — [Do Your B2B Customers See the Value You Deliver?](https://hbr.org/2026/08/do-your-b2b-customers-see-the-value-you-deliver)
