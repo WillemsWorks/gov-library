@@ -32,3 +32,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 **Status:** nieuw
 **Bron:** Harvard Business Review · 1 september 2026
 **Kern:** Organisaties die transformatie behandelen als een project met een vastgesteld eindpunt, lopen eerder vast dan organisaties die het als een continu leertraject benaderen. Gavett betoogt dat het erkennen van onzekerheid juist de slagingskans vergroot. Aanpassen onderweg is geen tekortkoming maar de kern van een robuust veranderproces.
+
+## 2026-09-20 — [Transformation Should Be a Learning Journey](https://hbr.org/2026/09/transformation-should-be-a-learning-journey)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Evgeny Kaganer & Christoph Loch, IESE Business School) · september/oktober 2026
+**Kern:** Starre transformatieprogramma's mislukken doordat ze uitgaan van vaste doelen en tijdlijnen. Een portfolio-aanpak met vier typen — pilots, opties, gevestigde verbeteringen en ventures — laat organisaties voortdurend leren en bijsturen. De bestemming van een transformatie staat nooit echt vast: ze wordt herhaaldelijk opnieuw gekalibreerd op basis van wat de organisatie in de praktijk leert.

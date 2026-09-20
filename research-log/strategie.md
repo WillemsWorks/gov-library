@@ -20,3 +20,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 **Status:** nieuw
 **Bron:** Harvard Business Review (Felipe A. Csaszar) · 7 augustus 2026
 **Kern:** Csaszar laat zien dat AI de beperkingen van menselijke strategisten structureel kan aanvullen: het genereert meer alternatieve opties, doorbreekt tunnelvisie en maakt dynamische scenarioanalyse mogelijk. Beleggers beoordelen AI-geassisteerde businessplannen consistent beter. Het menselijk oordeel blijft nodig voor waardering, context en uiteindelijke keuze.
+
+## 2026-09-20 — [Collaborate on the Core. Compete on the Edges.](https://hbr.org/2026/09/collaborate-on-the-core-compete-on-the-edges)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Frank Nagle, MIT & Microsoft Research) · september/oktober 2026
+**Kern:** Concurrentievoordeel ontstaat door strategisch te kiezen waar je samenwerkt (infrastructuur, standaarden) en waar je differentieert. Vijf beslissingsfactoren — marktdynamica, technologielevenscyclus, positie in de stack, concurrentieniveau en regelgeving — bepalen of een capability in de "core" of de "edge" valt. De Tour de France peloton-metafoor maakt dit direct toepasbaar in strategiegesprekken.
