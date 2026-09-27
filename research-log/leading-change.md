@@ -7,6 +7,13 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 ---
 
+## 2026-09-27 — [Your Transformation Doesn't Need an Endpoint](https://hbr.org/2026/09/your-transformation-doesnt-need-an-endpoint)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Gretchen Gavett) · september 2026
+**Kern:** Traditionele transformatieprogramma's zijn gebouwd rond een vast eindpunt dat het momentum moet leveren, maar dit uitgangspunt zelf kan de reden zijn dat transformaties stagneren. Gavett betoogt dat wanneer de realiteit verandert, vasthouden aan een vooraf bepaald doel een last wordt in plaats van een leidraad. Duurzame transformatie vraagt om een cultuur van voortdurende aanpassing, waarbij leiders bewust afstand nemen van het idee dat de verandering ooit 'af' is.
+
+---
+
 ## 2026-09-13 — [Change Management Competencies in 2026: The Skills That Separate Good Leaders from Great Ones](https://thechangeleadership.com/change-management-competencies-in-2026-the-skills-that-separate-good-leaders-from-great-ones)
 **Status:** nieuw
 **Bron:** The Change Leadership · 4 maart 2026

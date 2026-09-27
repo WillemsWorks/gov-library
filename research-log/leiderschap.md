@@ -7,6 +7,13 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 ---
 
+## 2026-09-27 — [The 4 Stages of the CEO-Board Relationship](https://hbr.org/2026/09/the-4-stages-of-the-ceo-board-relationship)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Claudius A. Hildebrand & Douglas L. Peterson) · september/oktober 2026
+**Kern:** De relatie tussen een CEO en zijn raad van bestuur verloopt via vier voorspelbare fasen, elk met eigen uitdagingen en benodigde leiderschapsvaardigheden. CEO's die de fasen bewust managen, bouwen een vertrouwensrelatie die hen operationele vrijheid geeft; wie dit verwaarloost, verliest slagkracht of raakt in conflict. De balans tussen engagement en autonomie verschilt fundamenteel per fase — te veel nabijheid in de ene fase werkt averechts in de volgende.
+
+---
+
 ## 2026-09-13 — [Is Narrative Leadership the human antidote to the 2026 visibility gap?](https://staffbase.com/blog/narrative-leadership-2026-visibility-gap)
 **Status:** nieuw
 **Bron:** Staffbase · 26 mei 2026

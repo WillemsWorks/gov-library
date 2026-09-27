@@ -7,6 +7,13 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 ---
 
+## 2026-09-27 — [Why Cash Rewards Don't Always Produce Better Ideas](https://hbr.org/2026/09/why-cash-rewards-dont-always-produce-better-ideas)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Debora Szpilman) · september 2026
+**Kern:** Onderzoek onder 2.376 uitvinders bij Chinese beursgenoteerde bedrijven toont aan dat financiële beloningsprogramma's sterk uiteenlopende effecten hebben per medewerkersprofiel. Specialisten in smalle domeinen produceerden onder financiële prikkels minder maar meer baanbrekende uitvindingen; generalisten verhoogden juist hun outputvolume. Kernboodschap: prikkels bepalen niet hoeveel innovatie er ontstaat, maar welk type — managers die dat negeren sturen ongewild op de verkeerde uitkomst.
+
+---
+
 ## 2026-09-13 — [The State of Organizations 2026](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-state-of-organizations-2026)
 **Status:** nieuw
 **Bron:** McKinsey & Company (10.000+ leidinggevenden, 15 landen) · maart 2026

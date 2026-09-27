@@ -7,6 +7,13 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 ---
 
+## 2026-09-27 — [A Better Way to Craft Strategy in the Age of AI](https://hbr.org/2026/09/a-better-way-to-craft-strategy-in-the-age-of-ai)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Amy Bernstein e.a.) · september/oktober 2026
+**Kern:** AI maakt het voor het eerst mogelijk om meerdere strategische scenario's parallel te verkennen en snel te testen — iets wat met traditionele frameworks als Porter's vijfkrachtenmodel altijd sequentieel en tijdrovend was. Dit verandert niet de fundamentele vragen van strategieontwikkeling, maar verkort de cyclus van hypothese tot validatie dramatically. Organisaties die AI inzetten als strategisch exploratietool bouwen een structureel leervoordeel op. (Cluster-beslissing: artikel gaat over verkennen en valideren van nieuwe strategische proposities → Innovatie & Marketing.)
+
+---
+
 ## 2026-08-23 — ["Leadership Drift" Is Stalling Your AI Strategy](https://hbr.org/2026/08/leadership-drift-is-stalling-your-ai-strategy)
 **Status:** nieuw
 **Bron:** Harvard Business Review · Morgan Blangeois & Thomas Roulet · 11 augustus 2026

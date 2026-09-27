@@ -7,6 +7,13 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 ---
 
+## 2026-09-27 — [Three Attention-Grabbing Story Structures (That Aren't the Hero's Journey)](https://www.marketingprofs.com/articles/2026/54630/b2b-storytelling-frameworks)
+**Status:** nieuw
+**Bron:** MarketingProfs (JenMarie Macdonald & Matthew Kabik) · 2026
+**Kern:** De Held-reis domineert marketingnarratief maar is te omvangrijk voor moderne B2B-content met meerdere stakeholders en korte aandachtsspannen. Drie alternatieve structuren: Collectieve Reis (voor parallelle stakeholderroutes), Kishōtenketsu (cyclische structuur voor social media) en Trickster Stories (humor en verrassing voor snelle engagement). Elk framework biedt concrete handvatten voor verhalen die werken zonder de uitgebreide setup van een heldenverhaal.
+
+---
+
 ### 2026-08-13 — Open/onopgeloste moraal als geldig Wegter-eindpunt
 **Status:** nieuw
 **Bron:** Substack-artikel "La Cité de la Mer: Titanic en Redoutable onder één dak"

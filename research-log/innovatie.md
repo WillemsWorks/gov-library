@@ -7,6 +7,13 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 ---
 
+## 2026-09-27 — [How AI Agents Orchestrate Work Across Silos](https://hbr.org/2026/09/how-ai-agents-orchestrate-work-across-silos)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Kris Johnson Ferreira & Jordan Tong) · september/oktober 2026
+**Kern:** AI-agenten vertegenwoordigen een nieuwe laag van organisatorische coördinatie die silo's overbrugt: AI handelt analyse en informatierouting af, terwijl mensen contextuele kennis inbrengen en eindbeslissingen nemen. Organisaties met dit model rapporteren kortere doorlooptijden, consistentere besliskwaliteit en betere benutting van verspreide expertise. Dit is een fundamentele infrastructuurlaag voor innovatieve organisaties, niet louter een efficiëntie-toepassing.
+
+---
+
 ## 2026-08-23 — [4 Steps to Transform the "Middle Office" with AI](https://hbr.org/2026/08/4-steps-to-transform-the-middle-office-with-ai)
 **Status:** nieuw
 **Bron:** Harvard Business Review · H. James Wilson, Chetna Sehgal e.a. (Accenture / Google) · 20 augustus 2026
