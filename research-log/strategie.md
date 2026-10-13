@@ -23,6 +23,11 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->
 
+## 2026-10-04 — [AI Is Revolutionizing Strategic Decision-Making](https://hbr.org/2026/09/ai-is-revolutionizing-strategic-decision-making)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Felipe A. Csaszar, University of Michigan) · september/oktober 2026
+**Kern:** AI heft drie klassieke beperkingen van strategieontwikkeling op: beperkt aantal verkenbare alternatieven, expertiseblinde vlekken en traagheid van scenarioanalyse. Duurzaam concurrentievoordeel verschuift daarmee naar propriëtaire data, diep geïntegreerde workflows en iteratiesnelheid — niet naar het AI-model zelf. (Cluster-beslissing: verkennen en valideren van nieuwe strategische proposities via AI → Innovatie & Marketing.)
+
 ## 2026-09-06 — [Crafting Strategy in the Age of AI](https://hbr.org/2026/08/crafting-strategy-in-the-age-of-ai)
 **Status:** nieuw
 **Bron:** Harvard Business Review (Felipe A. Csaszar) · 7 augustus 2026

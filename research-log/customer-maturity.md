@@ -11,6 +11,13 @@ Items met status `nieuw` zijn nog niet besproken met Paul.
 
 ---
 
+## 2026-10-04 — [Are You Hearing What Your Customers Are Telling You?](https://hbr.org/2026/10/are-you-hearing-what-your-customers-are-telling-you)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Mittal, Piazza, Singh & Malshe) · 2 oktober 2026
+**Kern:** Zevenjarig onderzoek onder 72 bedrijven: statistische modellen overtreffen expertiseoordeel systematisch bij het interpreteren van klantfeedback, maar de meeste organisaties passen deze modellen nauwelijks toe. De data is er, het analytisch vermogen ook — de koppeling aan operationele beslissingen ontbreekt structureel. De auteurs onderscheiden drie niveaus van klantluistersystemen met bijbehorende organisatorische randvoorwaarden.
+
+---
+
 ## 2026-08-30 — [How to Recognize When Your Customers Want You to Act](https://hbr.org/2026/08/how-to-recognize-when-your-customers-want-you-to-act)
 **Status:** nieuw
 **Bron:** Harvard Business Review · 5 augustus 2026

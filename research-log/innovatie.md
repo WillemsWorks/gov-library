@@ -23,6 +23,11 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->
 
+## 2026-10-04 — [AI Is Making Verification the Bottleneck for Companies](https://hbr.org/2026/10/ai-is-making-verification-the-bottleneck-for-companies)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Christian Catalini, MIT) · 2 oktober 2026
+**Kern:** Naarmate AI de uitvoeringskosten verlaagt, verschuift de bottleneck van productie naar verificatie. Succesvolle organisaties worden "verificatiefabrieken" — hun cruciale activa zijn unieke ground-truth-data en gespecialiseerd beoordelingsvermogen. Wie alleen AI-productiviteit najaagt, creëert een vervangbaar aanbod; wie verificatiecapaciteit opbouwt, verankert concurrentievoordeel dat platforms niet kunnen kopiëren.
+
 ## 2026-08-30 — [Growth Favors the Bold: AI as Force Multiplier](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/growth-favors-the-bold-ai-as-force-multiplier)
 **Status:** nieuw
 **Bron:** McKinsey & Company · 6 augustus 2026

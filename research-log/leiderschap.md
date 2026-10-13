@@ -29,3 +29,8 @@ Na bespreking wordt de status bijgewerkt naar `verwerkt` of `afgewezen`.
 ---
 
 <!-- Nieuwe items worden hierboven toegevoegd door de weekly digest-taak -->
+
+## 2026-10-04 — [The Mindsets Leaders Need as AI Accelerates the Pace of Business](https://hbr.org/2026/10/the-mindsets-leaders-need-as-ai-accelerates-the-pace-of-business)
+**Status:** nieuw
+**Bron:** Harvard Business Review (Carter, Hoppe & Kelley) · 2 oktober 2026
+**Kern:** Drie mindsetverschuivingen voor leiders in een AI-versneld tijdperk: van zekerheid naar helderheid, van expertise naar exploratie, en van emotiecontrole naar emotie als informatiebron. De auteurs koppelen dit aan een vierstappenmethode (pauzeren, waarnemen, omschakelen, oefenen) waarmee leiders hun cognitieve reflexen actief kunnen herwireren. Sluit aan op Kouzes-Posner: credibiliteit vereist in het AI-tijdperk ook bewuste cognitieve flexibiliteit.
